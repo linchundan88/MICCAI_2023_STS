@@ -1,0 +1,9 @@
+using SwinUNETR for training.
+train:
+  0%|          | 0/686 [00:00<?, ?it/s]/mnt/d/PROJECTION/TianChi/STS-2D/train.py:71: UserWarning: torch.nn.utils.clip_grad_norm is now deprecated in favor of torch.nn.utils.clip_grad_norm_.
+  torch.nn.utils.clip_grad_norm(model.parameters(), CFG.max_grad_norm)
+
+
+
+
+  4%|▎         | 25/686 [00:10<03:37,  3.04it/s, epoch=1, gpu_mem=18.98 GB, loss=0.5486, lr=5.00e-04]

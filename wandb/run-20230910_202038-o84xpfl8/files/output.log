@@ -1,0 +1,16 @@
+
+using SegResNet_64 for training.
+train:
+  0%|          | 0/1061 [00:04<?, ?it/s]
+Traceback (most recent call last):
+  File "/mnt/d/PROJECTION/TianChi/STS-2D/train.py", line 210, in <module>
+    train_loss = train_step(train_loader, model, criterion, optimizer, CFG.device, epoch)
+  File "/mnt/d/PROJECTION/TianChi/STS-2D/train.py", line 71, in train_step
+    loss = criterion(outputs, label.to(device))
+  File "/mnt/d/PROJECTION/TianChi/STS-2D/train.py", line 175, in __call__
+    0.25 * self.hd_loss(pred, label)
+  File "/home/zy/anaconda3/envs/kaggle_torch/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/mnt/d/PROJECTION/TianChi/STS-2D/SegLoss/losses_pytorch/hausdorff.py", line 58, in forward
+    pred_dt = torch.from_numpy(self.distance_field(pred.cpu().numpy())).float()
+RuntimeError: Can't call numpy() on Tensor that requires grad. Use tensor.detach().numpy() instead.

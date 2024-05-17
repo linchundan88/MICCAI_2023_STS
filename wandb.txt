@@ -1,0 +1,8 @@
+
+# using a locally deployed wandb server
+conda activate pytorch2
+wandb server start
+
+wandb login --relogin --host=http://192.168.32.14:8080
+API key: local-5db06a54ebd72a5f33d2f7c371d248880c869632
+

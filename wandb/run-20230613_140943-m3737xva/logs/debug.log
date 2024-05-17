@@ -1,0 +1,28 @@
+2023-06-13 14:09:43,100 INFO    MainThread:13667 [wandb_setup.py:_flush():76] Current SDK version is 0.15.4
+2023-06-13 14:09:43,100 INFO    MainThread:13667 [wandb_setup.py:_flush():76] Configure stats pid to 13667
+2023-06-13 14:09:43,100 INFO    MainThread:13667 [wandb_setup.py:_flush():76] Loading settings from /home/zy/.config/wandb/settings
+2023-06-13 14:09:43,100 INFO    MainThread:13667 [wandb_setup.py:_flush():76] Loading settings from /mnt/d/PROJECTION/TianChi/STS-2D/wandb/settings
+2023-06-13 14:09:43,100 INFO    MainThread:13667 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-06-13 14:09:43,100 INFO    MainThread:13667 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'train.py', 'program': '/mnt/d/PROJECTION/TianChi/STS-2D/train.py'}
+2023-06-13 14:09:43,101 INFO    MainThread:13667 [wandb_setup.py:_flush():76] Applying login settings: {'api_key': '***REDACTED***'}
+2023-06-13 14:09:43,101 INFO    MainThread:13667 [wandb_setup.py:_flush():76] Applying login settings: {'api_key': '***REDACTED***'}
+2023-06-13 14:09:43,101 INFO    MainThread:13667 [wandb_init.py:_log_setup():507] Logging user logs to /mnt/d/PROJECTION/TianChi/STS-2D/wandb/run-20230613_140943-m3737xva/logs/debug.log
+2023-06-13 14:09:43,102 INFO    MainThread:13667 [wandb_init.py:_log_setup():508] Logging internal logs to /mnt/d/PROJECTION/TianChi/STS-2D/wandb/run-20230613_140943-m3737xva/logs/debug-internal.log
+2023-06-13 14:09:43,102 INFO    MainThread:13667 [wandb_init.py:init():547] calling init triggers
+2023-06-13 14:09:43,102 INFO    MainThread:13667 [wandb_init.py:init():554] wandb.init called with sweep_config: {}
+config: {'learning_rate': 5e-05, 'min_lr': 1e-07, 'weight_decay': 1e-06, 'model': 'segformer', 'tile_size': 320, 'train_stride_step': 10, 'epochs': 30}
+2023-06-13 14:09:43,102 INFO    MainThread:13667 [wandb_init.py:init():596] starting backend
+2023-06-13 14:09:43,102 INFO    MainThread:13667 [wandb_init.py:init():600] setting up manager
+2023-06-13 14:09:43,105 INFO    MainThread:13667 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-06-13 14:09:43,109 INFO    MainThread:13667 [wandb_init.py:init():606] backend started and connected
+2023-06-13 14:09:43,112 INFO    MainThread:13667 [wandb_init.py:init():703] updated telemetry
+2023-06-13 14:09:43,117 INFO    MainThread:13667 [wandb_init.py:init():736] communicating run to backend with 60.0 second timeout
+2023-06-13 14:09:43,958 INFO    MainThread:13667 [wandb_run.py:_on_init():2176] communicating current version
+2023-06-13 14:09:45,767 INFO    MainThread:13667 [wandb_run.py:_on_init():2185] got version response 
+2023-06-13 14:09:45,768 INFO    MainThread:13667 [wandb_init.py:init():787] starting run threads in backend
+2023-06-13 14:09:45,931 INFO    MainThread:13667 [wandb_run.py:_console_start():2155] atexit reg
+2023-06-13 14:09:45,931 INFO    MainThread:13667 [wandb_run.py:_redirect():2010] redirect: SettingsConsole.WRAP_RAW
+2023-06-13 14:09:45,932 INFO    MainThread:13667 [wandb_run.py:_redirect():2075] Wrapping output streams.
+2023-06-13 14:09:45,932 INFO    MainThread:13667 [wandb_run.py:_redirect():2100] Redirects installed.
+2023-06-13 14:09:45,933 INFO    MainThread:13667 [wandb_init.py:init():828] run started, returning control to user process
+2023-06-13 14:09:56,663 WARNING MsgRouterThr:13667 [router.py:message_loop():77] message_loop has been closed

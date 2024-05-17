@@ -1,0 +1,88 @@
+2023-09-12 15:37:54,629 INFO    StreamThr :160 [internal.py:wandb_internal():86] W&B internal server running at pid: 160, started at: 2023-09-12 15:37:54.628243
+2023-09-12 15:37:54,631 DEBUG   HandlerThread:160 [handler.py:handle_request():144] handle_request: status
+2023-09-12 15:37:54,633 INFO    WriterThread:160 [datastore.py:open_for_write():85] open: /mnt/d/PROJECTION/TianChi/STS-2D/wandb/run-20230912_153754-3312e1qb/run-3312e1qb.wandb
+2023-09-12 15:37:54,641 DEBUG   SenderThread:160 [sender.py:send():369] send: header
+2023-09-12 15:37:54,642 DEBUG   SenderThread:160 [sender.py:send():369] send: run
+2023-09-12 15:37:56,945 DEBUG   HandlerThread:160 [handler.py:handle_request():144] handle_request: check_version
+2023-09-12 15:37:56,946 INFO    SenderThread:160 [dir_watcher.py:__init__():211] watching files in: /mnt/d/PROJECTION/TianChi/STS-2D/wandb/run-20230912_153754-3312e1qb/files
+2023-09-12 15:37:56,947 INFO    SenderThread:160 [sender.py:_start_run_threads():1100] run started: 3312e1qb with start time 1694504274.629483
+2023-09-12 15:37:56,947 DEBUG   SenderThread:160 [sender.py:send_request():396] send_request: summary_record
+2023-09-12 15:37:56,949 INFO    SenderThread:160 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-09-12 15:37:56,951 DEBUG   SenderThread:160 [sender.py:send_request():396] send_request: check_version
+2023-09-12 15:37:57,970 INFO    Thread-12 :160 [dir_watcher.py:_on_file_created():272] file/dir created: /mnt/d/PROJECTION/TianChi/STS-2D/wandb/run-20230912_153754-3312e1qb/files/wandb-summary.json
+2023-09-12 15:37:58,060 DEBUG   HandlerThread:160 [handler.py:handle_request():144] handle_request: run_start
+2023-09-12 15:37:58,108 DEBUG   HandlerThread:160 [system_info.py:__init__():31] System info init
+2023-09-12 15:37:58,108 DEBUG   HandlerThread:160 [system_info.py:__init__():46] System info init done
+2023-09-12 15:37:58,108 INFO    HandlerThread:160 [system_monitor.py:start():181] Starting system monitor
+2023-09-12 15:37:58,109 INFO    SystemMonitor:160 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-09-12 15:37:58,109 INFO    HandlerThread:160 [system_monitor.py:probe():201] Collecting system info
+2023-09-12 15:37:58,110 INFO    SystemMonitor:160 [interfaces.py:start():190] Started cpu monitoring
+2023-09-12 15:37:58,111 INFO    SystemMonitor:160 [interfaces.py:start():190] Started disk monitoring
+2023-09-12 15:37:58,112 INFO    SystemMonitor:160 [interfaces.py:start():190] Started gpu monitoring
+2023-09-12 15:37:58,113 INFO    SystemMonitor:160 [interfaces.py:start():190] Started memory monitoring
+2023-09-12 15:37:58,114 INFO    SystemMonitor:160 [interfaces.py:start():190] Started network monitoring
+2023-09-12 15:37:58,134 DEBUG   HandlerThread:160 [system_info.py:probe():195] Probing system
+2023-09-12 15:37:58,193 DEBUG   HandlerThread:160 [gitlib.py:_init_repo():53] git repository is invalid
+2023-09-12 15:37:58,193 DEBUG   HandlerThread:160 [system_info.py:probe():240] Probing system done
+2023-09-12 15:37:58,193 DEBUG   HandlerThread:160 [system_monitor.py:probe():210] {'os': 'Linux-5.10.16.3-microsoft-standard-WSL2-x86_64-with-glibc2.35', 'python': '3.9.16', 'heartbeatAt': '2023-09-12T07:37:58.135727', 'startedAt': '2023-09-12T07:37:54.567624', 'docker': None, 'cuda': None, 'args': ('wandb', 'login'), 'state': 'running', 'program': '/mnt/d/PROJECTION/TianChi/STS-2D/train.py', 'codePath': 'train.py', 'host': 'DESKTOP-LT0ASMB', 'username': 'zy', 'executable': '/home/zy/anaconda3/envs/kaggle_torch/bin/python3', 'cpu_count': 3, 'cpu_count_logical': 5, 'cpu_freq': {'current': 3192.009, 'min': 0.0, 'max': 0.0}, 'cpu_freq_per_core': [{'current': 3192.009, 'min': 0.0, 'max': 0.0}, {'current': 3192.009, 'min': 0.0, 'max': 0.0}, {'current': 3192.009, 'min': 0.0, 'max': 0.0}, {'current': 3192.009, 'min': 0.0, 'max': 0.0}, {'current': 3192.009, 'min': 0.0, 'max': 0.0}], 'disk': {'total': 250.98248672485352, 'used': 63.27410125732422}, 'gpu': 'NVIDIA GeForce RTX 4090', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 4090', 'memory_total': 25757220864}], 'memory': {'total': 24.93661880493164}}
+2023-09-12 15:37:58,193 INFO    HandlerThread:160 [system_monitor.py:probe():211] Finished collecting system info
+2023-09-12 15:37:58,193 INFO    HandlerThread:160 [system_monitor.py:probe():214] Publishing system info
+2023-09-12 15:37:58,194 DEBUG   HandlerThread:160 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-09-12 15:37:58,196 DEBUG   HandlerThread:160 [system_info.py:_save_pip():67] Saving pip packages done
+2023-09-12 15:37:58,196 DEBUG   HandlerThread:160 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-09-12 15:37:58,220 ERROR   HandlerThread:160 [system_info.py:_save_conda():85] Error saving conda packages: [Errno 2] No such file or directory: 'conda'
+Traceback (most recent call last):
+  File "/home/zy/anaconda3/envs/kaggle_torch/lib/python3.9/site-packages/wandb/sdk/internal/system/system_info.py", line 81, in _save_conda
+    subprocess.call(
+  File "/home/zy/anaconda3/envs/kaggle_torch/lib/python3.9/subprocess.py", line 349, in call
+    with Popen(*popenargs, **kwargs) as p:
+  File "/home/zy/anaconda3/envs/kaggle_torch/lib/python3.9/subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/home/zy/anaconda3/envs/kaggle_torch/lib/python3.9/subprocess.py", line 1821, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'conda'
+2023-09-12 15:37:58,220 DEBUG   HandlerThread:160 [system_info.py:_save_conda():86] Saving conda packages done
+2023-09-12 15:37:58,222 INFO    HandlerThread:160 [system_monitor.py:probe():216] Finished publishing system info
+2023-09-12 15:37:58,228 DEBUG   SenderThread:160 [sender.py:send():369] send: files
+2023-09-12 15:37:58,228 INFO    SenderThread:160 [sender.py:_save_file():1354] saving file wandb-metadata.json with policy now
+2023-09-12 15:37:58,234 DEBUG   HandlerThread:160 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-12 15:37:58,235 DEBUG   SenderThread:160 [sender.py:send_request():396] send_request: stop_status
+2023-09-12 15:37:58,589 DEBUG   SenderThread:160 [sender.py:send():369] send: telemetry
+2023-09-12 15:37:58,971 INFO    Thread-12 :160 [dir_watcher.py:_on_file_created():272] file/dir created: /mnt/d/PROJECTION/TianChi/STS-2D/wandb/run-20230912_153754-3312e1qb/files/output.log
+2023-09-12 15:37:58,972 INFO    Thread-12 :160 [dir_watcher.py:_on_file_created():272] file/dir created: /mnt/d/PROJECTION/TianChi/STS-2D/wandb/run-20230912_153754-3312e1qb/files/wandb-metadata.json
+2023-09-12 15:37:58,972 INFO    Thread-12 :160 [dir_watcher.py:_on_file_created():272] file/dir created: /mnt/d/PROJECTION/TianChi/STS-2D/wandb/run-20230912_153754-3312e1qb/files/requirements.txt
+2023-09-12 15:37:58,973 INFO    Thread-12 :160 [dir_watcher.py:_on_file_created():272] file/dir created: /mnt/d/PROJECTION/TianChi/STS-2D/wandb/run-20230912_153754-3312e1qb/files/conda-environment.yaml
+2023-09-12 15:37:59,786 INFO    wandb-upload_0:160 [upload_job.py:push():133] Uploaded file /tmp/tmppjapumu_wandb/a2nrzx8l-wandb-metadata.json
+2023-09-12 15:38:00,004 DEBUG   HandlerThread:160 [handler.py:handle_request():144] handle_request: status_report
+2023-09-12 15:38:00,980 INFO    Thread-12 :160 [dir_watcher.py:_on_file_modified():289] file/dir modified: /mnt/d/PROJECTION/TianChi/STS-2D/wandb/run-20230912_153754-3312e1qb/files/output.log
+2023-09-12 15:38:02,989 INFO    Thread-12 :160 [dir_watcher.py:_on_file_modified():289] file/dir modified: /mnt/d/PROJECTION/TianChi/STS-2D/wandb/run-20230912_153754-3312e1qb/files/output.log
+2023-09-12 15:38:04,999 INFO    Thread-12 :160 [dir_watcher.py:_on_file_modified():289] file/dir modified: /mnt/d/PROJECTION/TianChi/STS-2D/wandb/run-20230912_153754-3312e1qb/files/output.log
+2023-09-12 15:38:05,221 DEBUG   HandlerThread:160 [handler.py:handle_request():144] handle_request: status_report
+2023-09-12 15:38:07,010 INFO    Thread-12 :160 [dir_watcher.py:_on_file_modified():289] file/dir modified: /mnt/d/PROJECTION/TianChi/STS-2D/wandb/run-20230912_153754-3312e1qb/files/output.log
+2023-09-12 15:38:09,021 INFO    Thread-12 :160 [dir_watcher.py:_on_file_modified():289] file/dir modified: /mnt/d/PROJECTION/TianChi/STS-2D/wandb/run-20230912_153754-3312e1qb/files/output.log
+2023-09-12 15:38:10,273 DEBUG   HandlerThread:160 [handler.py:handle_request():144] handle_request: status_report
+2023-09-12 15:38:11,034 INFO    Thread-12 :160 [dir_watcher.py:_on_file_modified():289] file/dir modified: /mnt/d/PROJECTION/TianChi/STS-2D/wandb/run-20230912_153754-3312e1qb/files/output.log
+2023-09-12 15:38:13,044 INFO    Thread-12 :160 [dir_watcher.py:_on_file_modified():289] file/dir modified: /mnt/d/PROJECTION/TianChi/STS-2D/wandb/run-20230912_153754-3312e1qb/files/output.log
+2023-09-12 15:38:13,234 DEBUG   HandlerThread:160 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-12 15:38:13,235 DEBUG   SenderThread:160 [sender.py:send_request():396] send_request: stop_status
+2023-09-12 15:38:15,056 INFO    Thread-12 :160 [dir_watcher.py:_on_file_modified():289] file/dir modified: /mnt/d/PROJECTION/TianChi/STS-2D/wandb/run-20230912_153754-3312e1qb/files/output.log
+2023-09-12 15:38:15,382 DEBUG   HandlerThread:160 [handler.py:handle_request():144] handle_request: status_report
+2023-09-12 15:38:17,070 INFO    Thread-12 :160 [dir_watcher.py:_on_file_modified():289] file/dir modified: /mnt/d/PROJECTION/TianChi/STS-2D/wandb/run-20230912_153754-3312e1qb/files/output.log
+2023-09-12 15:38:18,115 INFO    cpu       :160 [interfaces.py:monitor():140] Process cpu has exited.
+2023-09-12 15:38:18,116 DEBUG   SystemMonitor:160 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-09-12 15:38:18,116 DEBUG   SystemMonitor:160 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-09-12 15:38:18,116 DEBUG   SystemMonitor:160 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-09-12 15:38:18,117 DEBUG   SenderThread:160 [sender.py:send():369] send: stats
+2023-09-12 15:38:19,065 INFO    MainThread:160 [internal.py:handle_exit():76] Internal process exited
+2023-09-12 15:38:19,280 INFO    Thread-12 :160 [dir_watcher.py:_on_file_modified():289] file/dir modified: /mnt/d/PROJECTION/TianChi/STS-2D/wandb/run-20230912_153754-3312e1qb/files/output.log
+2023-09-12 15:38:19,655 WARNING StreamThr :160 [internal.py:is_dead():414] Internal process exiting, parent pid 140 disappeared
+2023-09-12 15:38:19,656 ERROR   StreamThr :160 [internal.py:wandb_internal():152] Internal process shutdown.
+2023-09-12 15:38:20,118 INFO    HandlerThread:160 [handler.py:finish():854] shutting down handler
+2023-09-12 15:38:20,118 INFO    WriterThread:160 [datastore.py:close():298] close: /mnt/d/PROJECTION/TianChi/STS-2D/wandb/run-20230912_153754-3312e1qb/run-3312e1qb.wandb
+2023-09-12 15:38:20,118 INFO    SenderThread:160 [sender.py:finish():1526] shutting down sender
+2023-09-12 15:38:20,118 INFO    HandlerThread:160 [system_monitor.py:finish():190] Stopping system monitor
+2023-09-12 15:38:20,120 INFO    HandlerThread:160 [interfaces.py:finish():202] Joined cpu monitor
+2023-09-12 15:38:20,121 INFO    HandlerThread:160 [interfaces.py:finish():202] Joined disk monitor
+2023-09-12 15:38:20,121 INFO    HandlerThread:160 [interfaces.py:finish():202] Joined gpu monitor
+2023-09-12 15:38:20,122 INFO    HandlerThread:160 [interfaces.py:finish():202] Joined memory monitor
+2023-09-12 15:38:20,122 INFO    HandlerThread:160 [interfaces.py:finish():202] Joined network monitor

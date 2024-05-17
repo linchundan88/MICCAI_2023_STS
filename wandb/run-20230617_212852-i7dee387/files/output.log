@@ -1,0 +1,12 @@
+
+using DynUNet for training.
+Traceback (most recent call last):
+  File "/mnt/d/PROJECTION/TianChi/STS-2D/train.py", line 178, in <module>
+    model = STS2DModel(CFG, model_name=CFG.model_name)
+  File "/mnt/d/PROJECTION/TianChi/STS-2D/models.py", line 82, in __init__
+    self.model = DynUNet(
+  File "/home/zy/anaconda3/envs/kaggle_torch/lib/python3.9/site-packages/monai/networks/nets/dynunet.py", line 176, in __init__
+    self.check_kernel_stride()
+  File "/home/zy/anaconda3/envs/kaggle_torch/lib/python3.9/site-packages/monai/networks/nets/dynunet.py", line 245, in check_kernel_stride
+    raise ValueError(error_msg)
+ValueError: length of kernel_size in block 0 should be the same as spatial_dims.

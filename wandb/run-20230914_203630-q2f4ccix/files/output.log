@@ -1,0 +1,8 @@
+using DynUNet for training.
+train:
+  0%|          | 0/629 [00:00<?, ?it/s]/mnt/d/PROJECTION/TianChi/STS-2D/train.py:78: UserWarning: torch.nn.utils.clip_grad_norm is now deprecated in favor of torch.nn.utils.clip_grad_norm_.
+  torch.nn.utils.clip_grad_norm(model.parameters(), CFG.max_grad_norm)
+
+
+
+  4%|▍         | 28/629 [00:08<01:58,  5.09it/s, epoch=1, gpu_mem=11.54 GB, loss=0.2711, lr=3.00e-03]

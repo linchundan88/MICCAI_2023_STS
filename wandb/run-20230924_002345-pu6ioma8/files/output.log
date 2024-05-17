@@ -1,0 +1,10 @@
+
+using SegResNet_64 for training.
+train:
+  0%|          | 0/320 [00:00<?, ?it/s]/mnt/d/PROJECTION/TianChi/STS-2D/train.py:78: UserWarning: torch.nn.utils.clip_grad_norm is now deprecated in favor of torch.nn.utils.clip_grad_norm_.
+  torch.nn.utils.clip_grad_norm(model.parameters(), CFG.max_grad_norm)
+
+
+
+
+  5%|▍         | 15/320 [00:11<02:29,  2.04it/s, epoch=1, gpu_mem=21.22 GB, loss=0.1496, lr=3.00e-03]

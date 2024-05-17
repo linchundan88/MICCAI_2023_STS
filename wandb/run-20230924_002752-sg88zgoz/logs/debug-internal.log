@@ -1,0 +1,191 @@
+2023-09-24 00:27:52,770 INFO    StreamThr :696 [internal.py:wandb_internal():86] W&B internal server running at pid: 696, started at: 2023-09-24 00:27:52.769636
+2023-09-24 00:27:52,771 DEBUG   HandlerThread:696 [handler.py:handle_request():144] handle_request: status
+2023-09-24 00:27:52,773 INFO    WriterThread:696 [datastore.py:open_for_write():85] open: /mnt/d/PROJECTION/TianChi/STS-2D/wandb/run-20230924_002752-sg88zgoz/run-sg88zgoz.wandb
+2023-09-24 00:27:52,781 DEBUG   SenderThread:696 [sender.py:send():369] send: header
+2023-09-24 00:27:52,782 DEBUG   SenderThread:696 [sender.py:send():369] send: run
+2023-09-24 00:27:54,326 DEBUG   HandlerThread:696 [handler.py:handle_request():144] handle_request: check_version
+2023-09-24 00:27:54,354 INFO    SenderThread:696 [dir_watcher.py:__init__():211] watching files in: /mnt/d/PROJECTION/TianChi/STS-2D/wandb/run-20230924_002752-sg88zgoz/files
+2023-09-24 00:27:54,354 INFO    SenderThread:696 [sender.py:_start_run_threads():1100] run started: sg88zgoz with start time 1695486472.769432
+2023-09-24 00:27:54,354 DEBUG   SenderThread:696 [sender.py:send_request():396] send_request: summary_record
+2023-09-24 00:27:54,357 INFO    SenderThread:696 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-09-24 00:27:54,358 DEBUG   SenderThread:696 [sender.py:send_request():396] send_request: check_version
+2023-09-24 00:27:54,692 DEBUG   HandlerThread:696 [handler.py:handle_request():144] handle_request: run_start
+2023-09-24 00:27:54,710 DEBUG   HandlerThread:696 [system_info.py:__init__():31] System info init
+2023-09-24 00:27:54,710 DEBUG   HandlerThread:696 [system_info.py:__init__():46] System info init done
+2023-09-24 00:27:54,711 INFO    HandlerThread:696 [system_monitor.py:start():181] Starting system monitor
+2023-09-24 00:27:54,711 INFO    SystemMonitor:696 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-09-24 00:27:54,711 INFO    HandlerThread:696 [system_monitor.py:probe():201] Collecting system info
+2023-09-24 00:27:54,712 INFO    SystemMonitor:696 [interfaces.py:start():190] Started cpu monitoring
+2023-09-24 00:27:54,714 INFO    SystemMonitor:696 [interfaces.py:start():190] Started disk monitoring
+2023-09-24 00:27:54,715 INFO    SystemMonitor:696 [interfaces.py:start():190] Started gpu monitoring
+2023-09-24 00:27:54,715 INFO    SystemMonitor:696 [interfaces.py:start():190] Started memory monitoring
+2023-09-24 00:27:54,716 INFO    SystemMonitor:696 [interfaces.py:start():190] Started network monitoring
+2023-09-24 00:27:54,723 DEBUG   HandlerThread:696 [system_info.py:probe():195] Probing system
+2023-09-24 00:27:54,759 DEBUG   HandlerThread:696 [gitlib.py:_init_repo():53] git repository is invalid
+2023-09-24 00:27:54,759 DEBUG   HandlerThread:696 [system_info.py:probe():240] Probing system done
+2023-09-24 00:27:54,759 DEBUG   HandlerThread:696 [system_monitor.py:probe():210] {'os': 'Linux-5.10.16.3-microsoft-standard-WSL2-x86_64-with-glibc2.35', 'python': '3.9.16', 'heartbeatAt': '2023-09-23T16:27:54.723527', 'startedAt': '2023-09-23T16:27:52.699988', 'docker': None, 'cuda': None, 'args': ('wandb', 'login'), 'state': 'running', 'program': '/mnt/d/PROJECTION/TianChi/STS-2D/train.py', 'codePath': 'train.py', 'host': 'DESKTOP-LT0ASMB', 'username': 'zy', 'executable': '/home/zy/anaconda3/envs/kaggle_torch/bin/python3', 'cpu_count': 3, 'cpu_count_logical': 5, 'cpu_freq': {'current': 3192.008, 'min': 0.0, 'max': 0.0}, 'cpu_freq_per_core': [{'current': 3192.008, 'min': 0.0, 'max': 0.0}, {'current': 3192.008, 'min': 0.0, 'max': 0.0}, {'current': 3192.008, 'min': 0.0, 'max': 0.0}, {'current': 3192.008, 'min': 0.0, 'max': 0.0}, {'current': 3192.008, 'min': 0.0, 'max': 0.0}], 'disk': {'total': 250.98248672485352, 'used': 63.60930252075195}, 'gpu': 'NVIDIA GeForce RTX 4090', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 4090', 'memory_total': 25757220864}], 'memory': {'total': 24.93661880493164}}
+2023-09-24 00:27:54,759 INFO    HandlerThread:696 [system_monitor.py:probe():211] Finished collecting system info
+2023-09-24 00:27:54,760 INFO    HandlerThread:696 [system_monitor.py:probe():214] Publishing system info
+2023-09-24 00:27:54,760 DEBUG   HandlerThread:696 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-09-24 00:27:54,762 DEBUG   HandlerThread:696 [system_info.py:_save_pip():67] Saving pip packages done
+2023-09-24 00:27:54,762 DEBUG   HandlerThread:696 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-09-24 00:27:54,785 ERROR   HandlerThread:696 [system_info.py:_save_conda():85] Error saving conda packages: [Errno 2] No such file or directory: 'conda'
+Traceback (most recent call last):
+  File "/home/zy/anaconda3/envs/kaggle_torch/lib/python3.9/site-packages/wandb/sdk/internal/system/system_info.py", line 81, in _save_conda
+    subprocess.call(
+  File "/home/zy/anaconda3/envs/kaggle_torch/lib/python3.9/subprocess.py", line 349, in call
+    with Popen(*popenargs, **kwargs) as p:
+  File "/home/zy/anaconda3/envs/kaggle_torch/lib/python3.9/subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/home/zy/anaconda3/envs/kaggle_torch/lib/python3.9/subprocess.py", line 1821, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'conda'
+2023-09-24 00:27:54,786 DEBUG   HandlerThread:696 [system_info.py:_save_conda():86] Saving conda packages done
+2023-09-24 00:27:54,788 INFO    HandlerThread:696 [system_monitor.py:probe():216] Finished publishing system info
+2023-09-24 00:27:54,794 DEBUG   SenderThread:696 [sender.py:send():369] send: files
+2023-09-24 00:27:54,795 INFO    SenderThread:696 [sender.py:_save_file():1354] saving file wandb-metadata.json with policy now
+2023-09-24 00:27:54,801 DEBUG   HandlerThread:696 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-24 00:27:54,801 DEBUG   SenderThread:696 [sender.py:send_request():396] send_request: stop_status
+2023-09-24 00:27:55,361 INFO    Thread-12 :696 [dir_watcher.py:_on_file_created():272] file/dir created: /mnt/d/PROJECTION/TianChi/STS-2D/wandb/run-20230924_002752-sg88zgoz/files/conda-environment.yaml
+2023-09-24 00:27:55,363 INFO    Thread-12 :696 [dir_watcher.py:_on_file_created():272] file/dir created: /mnt/d/PROJECTION/TianChi/STS-2D/wandb/run-20230924_002752-sg88zgoz/files/requirements.txt
+2023-09-24 00:27:55,364 INFO    Thread-12 :696 [dir_watcher.py:_on_file_created():272] file/dir created: /mnt/d/PROJECTION/TianChi/STS-2D/wandb/run-20230924_002752-sg88zgoz/files/wandb-metadata.json
+2023-09-24 00:27:55,365 INFO    Thread-12 :696 [dir_watcher.py:_on_file_created():272] file/dir created: /mnt/d/PROJECTION/TianChi/STS-2D/wandb/run-20230924_002752-sg88zgoz/files/wandb-summary.json
+2023-09-24 00:27:55,538 DEBUG   SenderThread:696 [sender.py:send():369] send: telemetry
+2023-09-24 00:27:56,155 ERROR   wandb-upload_0:696 [internal_api.py:upload_file():2192] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/zhuangy/STS-2D/sg88zgoz/wandb-metadata.json?Expires=1695572875&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=dN%2BgqQ1LYaXCNfohfgiaI%2BWDApBkIeFKTPmZ4YlhDBh5yFLcgiO%2FDwEKZvRtrHxgCCsQEDIGmw0muRiPSPsqAeSs%2Fme%2BIJ6FBX8aQQ0EvVCtD5rEJX5EclogDcaIe7EFVfWhBjQ9wxqLIc%2F93ob%2FCK9ZAjmQFrJauhqOai6IKPP2jKp8u7F8jFtvloEC4li%2BeTmpvLpmIe3MPLlzwgFSI61MbDCFpM6ZsmrxkzSzv%2FXnDgh%2B73F3%2FmG4skejcPDl8igi03DJrU1Q%2BFaHRYWxUlmHpEdhPdks92wuonfpyS0AM0KyKufu7Bx0IM9itz4JMxFq3F%2FmEANtSMvcpDbqHQ%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2023-09-24 00:27:56,155 ERROR   wandb-upload_0:696 [internal_api.py:upload_file():2194] upload_file request headers: {'User-Agent': 'python-requests/2.29.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '1547'}
+2023-09-24 00:27:56,156 ERROR   wandb-upload_0:696 [internal_api.py:upload_file():2196] upload_file response body: 
+2023-09-24 00:27:56,365 INFO    Thread-12 :696 [dir_watcher.py:_on_file_created():272] file/dir created: /mnt/d/PROJECTION/TianChi/STS-2D/wandb/run-20230924_002752-sg88zgoz/files/output.log
+2023-09-24 00:27:57,519 ERROR   wandb-upload_0:696 [internal_api.py:upload_file():2192] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/zhuangy/STS-2D/sg88zgoz/wandb-metadata.json?Expires=1695572875&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=dN%2BgqQ1LYaXCNfohfgiaI%2BWDApBkIeFKTPmZ4YlhDBh5yFLcgiO%2FDwEKZvRtrHxgCCsQEDIGmw0muRiPSPsqAeSs%2Fme%2BIJ6FBX8aQQ0EvVCtD5rEJX5EclogDcaIe7EFVfWhBjQ9wxqLIc%2F93ob%2FCK9ZAjmQFrJauhqOai6IKPP2jKp8u7F8jFtvloEC4li%2BeTmpvLpmIe3MPLlzwgFSI61MbDCFpM6ZsmrxkzSzv%2FXnDgh%2B73F3%2FmG4skejcPDl8igi03DJrU1Q%2BFaHRYWxUlmHpEdhPdks92wuonfpyS0AM0KyKufu7Bx0IM9itz4JMxFq3F%2FmEANtSMvcpDbqHQ%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2023-09-24 00:27:57,519 ERROR   wandb-upload_0:696 [internal_api.py:upload_file():2194] upload_file request headers: {'User-Agent': 'python-requests/2.29.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '1547'}
+2023-09-24 00:27:57,520 ERROR   wandb-upload_0:696 [internal_api.py:upload_file():2196] upload_file response body: 
+2023-09-24 00:27:58,377 INFO    Thread-12 :696 [dir_watcher.py:_on_file_modified():289] file/dir modified: /mnt/d/PROJECTION/TianChi/STS-2D/wandb/run-20230924_002752-sg88zgoz/files/output.log
+2023-09-24 00:27:58,632 DEBUG   HandlerThread:696 [handler.py:handle_request():144] handle_request: status_report
+2023-09-24 00:27:59,381 INFO    Thread-12 :696 [dir_watcher.py:_on_file_modified():289] file/dir modified: /mnt/d/PROJECTION/TianChi/STS-2D/wandb/run-20230924_002752-sg88zgoz/files/output.log
+2023-09-24 00:28:00,159 ERROR   wandb-upload_0:696 [internal_api.py:upload_file():2192] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/zhuangy/STS-2D/sg88zgoz/wandb-metadata.json?Expires=1695572875&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=dN%2BgqQ1LYaXCNfohfgiaI%2BWDApBkIeFKTPmZ4YlhDBh5yFLcgiO%2FDwEKZvRtrHxgCCsQEDIGmw0muRiPSPsqAeSs%2Fme%2BIJ6FBX8aQQ0EvVCtD5rEJX5EclogDcaIe7EFVfWhBjQ9wxqLIc%2F93ob%2FCK9ZAjmQFrJauhqOai6IKPP2jKp8u7F8jFtvloEC4li%2BeTmpvLpmIe3MPLlzwgFSI61MbDCFpM6ZsmrxkzSzv%2FXnDgh%2B73F3%2FmG4skejcPDl8igi03DJrU1Q%2BFaHRYWxUlmHpEdhPdks92wuonfpyS0AM0KyKufu7Bx0IM9itz4JMxFq3F%2FmEANtSMvcpDbqHQ%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2023-09-24 00:28:00,160 ERROR   wandb-upload_0:696 [internal_api.py:upload_file():2194] upload_file request headers: {'User-Agent': 'python-requests/2.29.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '1547'}
+2023-09-24 00:28:00,160 ERROR   wandb-upload_0:696 [internal_api.py:upload_file():2196] upload_file response body: 
+2023-09-24 00:28:00,160 INFO    wandb-upload_0:696 [retry.py:__call__():172] Retry attempt failed:
+Traceback (most recent call last):
+  File "/home/zy/anaconda3/envs/kaggle_torch/lib/python3.9/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/home/zy/anaconda3/envs/kaggle_torch/lib/python3.9/site-packages/urllib3/connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "/home/zy/anaconda3/envs/kaggle_torch/lib/python3.9/site-packages/urllib3/connectionpool.py", line 1042, in _validate_conn
+    conn.connect()
+  File "/home/zy/anaconda3/envs/kaggle_torch/lib/python3.9/site-packages/urllib3/connection.py", line 419, in connect
+    self.sock = ssl_wrap_socket(
+  File "/home/zy/anaconda3/envs/kaggle_torch/lib/python3.9/site-packages/urllib3/util/ssl_.py", line 449, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(
+  File "/home/zy/anaconda3/envs/kaggle_torch/lib/python3.9/site-packages/urllib3/util/ssl_.py", line 493, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/home/zy/anaconda3/envs/kaggle_torch/lib/python3.9/ssl.py", line 501, in wrap_socket
+    return self.sslsocket_class._create(
+  File "/home/zy/anaconda3/envs/kaggle_torch/lib/python3.9/ssl.py", line 1041, in _create
+    self.do_handshake()
+  File "/home/zy/anaconda3/envs/kaggle_torch/lib/python3.9/ssl.py", line 1310, in do_handshake
+    self._sslobj.do_handshake()
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/zy/anaconda3/envs/kaggle_torch/lib/python3.9/site-packages/requests/adapters.py", line 487, in send
+    resp = conn.urlopen(
+  File "/home/zy/anaconda3/envs/kaggle_torch/lib/python3.9/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+  File "/home/zy/anaconda3/envs/kaggle_torch/lib/python3.9/site-packages/urllib3/util/retry.py", line 550, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/home/zy/anaconda3/envs/kaggle_torch/lib/python3.9/site-packages/urllib3/packages/six.py", line 769, in reraise
+    raise value.with_traceback(tb)
+  File "/home/zy/anaconda3/envs/kaggle_torch/lib/python3.9/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/home/zy/anaconda3/envs/kaggle_torch/lib/python3.9/site-packages/urllib3/connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "/home/zy/anaconda3/envs/kaggle_torch/lib/python3.9/site-packages/urllib3/connectionpool.py", line 1042, in _validate_conn
+    conn.connect()
+  File "/home/zy/anaconda3/envs/kaggle_torch/lib/python3.9/site-packages/urllib3/connection.py", line 419, in connect
+    self.sock = ssl_wrap_socket(
+  File "/home/zy/anaconda3/envs/kaggle_torch/lib/python3.9/site-packages/urllib3/util/ssl_.py", line 449, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(
+  File "/home/zy/anaconda3/envs/kaggle_torch/lib/python3.9/site-packages/urllib3/util/ssl_.py", line 493, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/home/zy/anaconda3/envs/kaggle_torch/lib/python3.9/ssl.py", line 501, in wrap_socket
+    return self.sslsocket_class._create(
+  File "/home/zy/anaconda3/envs/kaggle_torch/lib/python3.9/ssl.py", line 1041, in _create
+    self.do_handshake()
+  File "/home/zy/anaconda3/envs/kaggle_torch/lib/python3.9/ssl.py", line 1310, in do_handshake
+    self._sslobj.do_handshake()
+urllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/zy/anaconda3/envs/kaggle_torch/lib/python3.9/site-packages/wandb/sdk/internal/internal_api.py", line 2187, in upload_file
+    response = self._upload_file_session.put(
+  File "/home/zy/anaconda3/envs/kaggle_torch/lib/python3.9/site-packages/requests/sessions.py", line 647, in put
+    return self.request("PUT", url, data=data, **kwargs)
+  File "/home/zy/anaconda3/envs/kaggle_torch/lib/python3.9/site-packages/requests/sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/zy/anaconda3/envs/kaggle_torch/lib/python3.9/site-packages/requests/sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/zy/anaconda3/envs/kaggle_torch/lib/python3.9/site-packages/requests/adapters.py", line 502, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/zy/anaconda3/envs/kaggle_torch/lib/python3.9/site-packages/wandb/sdk/lib/retry.py", line 131, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "/home/zy/anaconda3/envs/kaggle_torch/lib/python3.9/site-packages/wandb/sdk/internal/internal_api.py", line 2216, in upload_file
+    raise _e.with_traceback(sys.exc_info()[2])
+  File "/home/zy/anaconda3/envs/kaggle_torch/lib/python3.9/site-packages/wandb/sdk/internal/internal_api.py", line 2187, in upload_file
+    response = self._upload_file_session.put(
+  File "/home/zy/anaconda3/envs/kaggle_torch/lib/python3.9/site-packages/requests/sessions.py", line 647, in put
+    return self.request("PUT", url, data=data, **kwargs)
+  File "/home/zy/anaconda3/envs/kaggle_torch/lib/python3.9/site-packages/requests/sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/zy/anaconda3/envs/kaggle_torch/lib/python3.9/site-packages/requests/sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/zy/anaconda3/envs/kaggle_torch/lib/python3.9/site-packages/requests/adapters.py", line 502, in send
+    raise ConnectionError(err, request=request)
+wandb.sdk.lib.retry.TransientError: None
+2023-09-24 00:28:01,391 INFO    Thread-12 :696 [dir_watcher.py:_on_file_modified():289] file/dir modified: /mnt/d/PROJECTION/TianChi/STS-2D/wandb/run-20230924_002752-sg88zgoz/files/output.log
+2023-09-24 00:28:03,402 INFO    Thread-12 :696 [dir_watcher.py:_on_file_modified():289] file/dir modified: /mnt/d/PROJECTION/TianChi/STS-2D/wandb/run-20230924_002752-sg88zgoz/files/output.log
+2023-09-24 00:28:03,822 DEBUG   HandlerThread:696 [handler.py:handle_request():144] handle_request: status_report
+2023-09-24 00:28:04,515 ERROR   wandb-upload_0:696 [internal_api.py:upload_file():2192] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/zhuangy/STS-2D/sg88zgoz/wandb-metadata.json?Expires=1695572875&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=dN%2BgqQ1LYaXCNfohfgiaI%2BWDApBkIeFKTPmZ4YlhDBh5yFLcgiO%2FDwEKZvRtrHxgCCsQEDIGmw0muRiPSPsqAeSs%2Fme%2BIJ6FBX8aQQ0EvVCtD5rEJX5EclogDcaIe7EFVfWhBjQ9wxqLIc%2F93ob%2FCK9ZAjmQFrJauhqOai6IKPP2jKp8u7F8jFtvloEC4li%2BeTmpvLpmIe3MPLlzwgFSI61MbDCFpM6ZsmrxkzSzv%2FXnDgh%2B73F3%2FmG4skejcPDl8igi03DJrU1Q%2BFaHRYWxUlmHpEdhPdks92wuonfpyS0AM0KyKufu7Bx0IM9itz4JMxFq3F%2FmEANtSMvcpDbqHQ%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2023-09-24 00:28:04,515 ERROR   wandb-upload_0:696 [internal_api.py:upload_file():2194] upload_file request headers: {'User-Agent': 'python-requests/2.29.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '1547'}
+2023-09-24 00:28:04,516 ERROR   wandb-upload_0:696 [internal_api.py:upload_file():2196] upload_file response body: 
+2023-09-24 00:28:05,411 INFO    Thread-12 :696 [dir_watcher.py:_on_file_modified():289] file/dir modified: /mnt/d/PROJECTION/TianChi/STS-2D/wandb/run-20230924_002752-sg88zgoz/files/output.log
+2023-09-24 00:28:06,716 INFO    cpu       :696 [interfaces.py:monitor():140] Process cpu has exited.
+2023-09-24 00:28:06,717 DEBUG   SystemMonitor:696 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-09-24 00:28:06,718 DEBUG   SystemMonitor:696 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-09-24 00:28:06,718 DEBUG   SystemMonitor:696 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-09-24 00:28:06,719 DEBUG   SenderThread:696 [sender.py:send():369] send: stats
+2023-09-24 00:28:07,437 INFO    Thread-12 :696 [dir_watcher.py:_on_file_modified():289] file/dir modified: /mnt/d/PROJECTION/TianChi/STS-2D/wandb/run-20230924_002752-sg88zgoz/files/output.log
+2023-09-24 00:28:09,720 DEBUG   HandlerThread:696 [handler.py:handle_request():144] handle_request: status_report
+2023-09-24 00:28:09,790 WARNING StreamThr :696 [internal.py:is_dead():414] Internal process exiting, parent pid 676 disappeared
+2023-09-24 00:28:09,790 ERROR   StreamThr :696 [internal.py:wandb_internal():152] Internal process shutdown.
+2023-09-24 00:28:10,720 INFO    SenderThread:696 [sender.py:finish():1526] shutting down sender
+2023-09-24 00:28:10,721 INFO    HandlerThread:696 [handler.py:finish():854] shutting down handler
+2023-09-24 00:28:10,721 INFO    WriterThread:696 [datastore.py:close():298] close: /mnt/d/PROJECTION/TianChi/STS-2D/wandb/run-20230924_002752-sg88zgoz/run-sg88zgoz.wandb
+2023-09-24 00:28:10,721 INFO    HandlerThread:696 [system_monitor.py:finish():190] Stopping system monitor
+2023-09-24 00:28:10,722 INFO    HandlerThread:696 [interfaces.py:finish():202] Joined cpu monitor
+2023-09-24 00:28:10,722 INFO    HandlerThread:696 [interfaces.py:finish():202] Joined disk monitor
+2023-09-24 00:28:10,722 INFO    HandlerThread:696 [interfaces.py:finish():202] Joined gpu monitor
+2023-09-24 00:28:10,723 INFO    HandlerThread:696 [interfaces.py:finish():202] Joined memory monitor
+2023-09-24 00:28:10,723 INFO    HandlerThread:696 [interfaces.py:finish():202] Joined network monitor
+2023-09-24 00:28:12,657 INFO    SenderThread:696 [dir_watcher.py:finish():359] shutting down directory watcher
+2023-09-24 00:28:13,446 INFO    SenderThread:696 [dir_watcher.py:_on_file_modified():289] file/dir modified: /mnt/d/PROJECTION/TianChi/STS-2D/wandb/run-20230924_002752-sg88zgoz/files/output.log
+2023-09-24 00:28:13,447 INFO    SenderThread:696 [dir_watcher.py:finish():389] scan: /mnt/d/PROJECTION/TianChi/STS-2D/wandb/run-20230924_002752-sg88zgoz/files
+2023-09-24 00:28:13,449 INFO    SenderThread:696 [dir_watcher.py:finish():403] scan save: /mnt/d/PROJECTION/TianChi/STS-2D/wandb/run-20230924_002752-sg88zgoz/files/conda-environment.yaml conda-environment.yaml
+2023-09-24 00:28:13,451 INFO    SenderThread:696 [dir_watcher.py:finish():403] scan save: /mnt/d/PROJECTION/TianChi/STS-2D/wandb/run-20230924_002752-sg88zgoz/files/config.yaml config.yaml
+2023-09-24 00:28:13,454 INFO    SenderThread:696 [dir_watcher.py:finish():403] scan save: /mnt/d/PROJECTION/TianChi/STS-2D/wandb/run-20230924_002752-sg88zgoz/files/output.log output.log
+2023-09-24 00:28:13,457 INFO    SenderThread:696 [dir_watcher.py:finish():403] scan save: /mnt/d/PROJECTION/TianChi/STS-2D/wandb/run-20230924_002752-sg88zgoz/files/requirements.txt requirements.txt
+2023-09-24 00:28:13,460 INFO    SenderThread:696 [dir_watcher.py:finish():403] scan save: /mnt/d/PROJECTION/TianChi/STS-2D/wandb/run-20230924_002752-sg88zgoz/files/wandb-metadata.json wandb-metadata.json
+2023-09-24 00:28:13,460 INFO    SenderThread:696 [dir_watcher.py:finish():403] scan save: /mnt/d/PROJECTION/TianChi/STS-2D/wandb/run-20230924_002752-sg88zgoz/files/wandb-summary.json wandb-summary.json
+2023-09-24 00:28:13,463 INFO    SenderThread:696 [file_pusher.py:finish():159] shutting down file pusher
+2023-09-24 00:28:13,463 INFO    SenderThread:696 [file_pusher.py:join():164] waiting for file pusher
+2023-09-24 00:28:15,242 ERROR   wandb-upload_0:696 [internal_api.py:upload_file():2192] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/zhuangy/STS-2D/sg88zgoz/wandb-metadata.json?Expires=1695572875&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=dN%2BgqQ1LYaXCNfohfgiaI%2BWDApBkIeFKTPmZ4YlhDBh5yFLcgiO%2FDwEKZvRtrHxgCCsQEDIGmw0muRiPSPsqAeSs%2Fme%2BIJ6FBX8aQQ0EvVCtD5rEJX5EclogDcaIe7EFVfWhBjQ9wxqLIc%2F93ob%2FCK9ZAjmQFrJauhqOai6IKPP2jKp8u7F8jFtvloEC4li%2BeTmpvLpmIe3MPLlzwgFSI61MbDCFpM6ZsmrxkzSzv%2FXnDgh%2B73F3%2FmG4skejcPDl8igi03DJrU1Q%2BFaHRYWxUlmHpEdhPdks92wuonfpyS0AM0KyKufu7Bx0IM9itz4JMxFq3F%2FmEANtSMvcpDbqHQ%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2023-09-24 00:28:15,242 ERROR   wandb-upload_0:696 [internal_api.py:upload_file():2194] upload_file request headers: {'User-Agent': 'python-requests/2.29.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '1547'}
+2023-09-24 00:28:15,243 ERROR   wandb-upload_0:696 [internal_api.py:upload_file():2196] upload_file response body: 

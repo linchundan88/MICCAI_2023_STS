@@ -1,0 +1,252 @@
+using SwinUNETR for training.
+train:
+  0%|          | 0/1258 [00:00<?, ?it/s]/mnt/d/PROJECTION/TianChi/STS-2D/train.py:78: UserWarning: torch.nn.utils.clip_grad_norm is now deprecated in favor of torch.nn.utils.clip_grad_norm_.
+  torch.nn.utils.clip_grad_norm(model.parameters(), CFG.max_grad_norm)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|██████████| 1258/1258 [07:40<00:00,  2.73it/s, epoch=1, gpu_mem=21.38 GB, loss=0.1357, lr=3.00e-03]
+ 50%|█████     | 1/2 [00:00<00:00,  6.14it/s, epoch=1, gpu_mem=3.99 GB, loss=0.0832]
+100%|██████████| 2/2 [00:00<00:00,  5.77it/s, epoch=1, gpu_mem=4.00 GB, loss=0.0707]
+Traceback (most recent call last):
+  File "/mnt/d/PROJECTION/TianChi/STS-2D/train.py", line 244, in <module>
+    torch.save(model.state_dict(), save_path)
+  File "/home/zy/anaconda3/envs/kaggle_torch/lib/python3.9/site-packages/torch/serialization.py", line 440, in save
+    with _open_zipfile_writer(f) as opened_zipfile:
+  File "/home/zy/anaconda3/envs/kaggle_torch/lib/python3.9/site-packages/torch/serialization.py", line 315, in _open_zipfile_writer
+    return container(name_or_buffer)
+  File "/home/zy/anaconda3/envs/kaggle_torch/lib/python3.9/site-packages/torch/serialization.py", line 288, in __init__
+    super().__init__(torch._C.PyTorchFileWriter(str(name)))
+RuntimeError: Parent directory ./results/log/exp15_SwinUNETR/checkpoint does not exist.
+best_th=0.3, score up: 0.000000->0.874117
+best_th=0.35, score up: 0.874117->0.885412
+best_th=0.4, score up: 0.885412->0.894851
+best_th=0.45, score up: 0.894851->0.901835
+best_th=0.5, score up: 0.901835->0.913291
+best_th=0.55, score up: 0.913291->0.920392
+best_th=0.6, score up: 0.920392->0.923812
+best_th=0.65, score up: 0.923812->0.924684

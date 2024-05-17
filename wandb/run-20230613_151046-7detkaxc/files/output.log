@@ -1,0 +1,149 @@
+using regunet for training.
+train:
+  0%|          | 0/343 [00:00<?, ?it/s]/mnt/d/PROJECTION/TianChi/STS-2D/train.py:71: UserWarning: torch.nn.utils.clip_grad_norm is now deprecated in favor of torch.nn.utils.clip_grad_norm_.
+  torch.nn.utils.clip_grad_norm(model.parameters(), CFG.max_grad_norm)
+
+
+
+
+
+
+
+
+
+ 98%|█████████▊| 337/343 [00:21<00:00, 17.91it/s, epoch=1, gpu_mem=0.70 GB, loss=0.4598, lr=5.00e-05]
+valid:
+100%|██████████| 343/343 [00:21<00:00, 15.64it/s, epoch=1, gpu_mem=0.70 GB, loss=0.4457, lr=5.00e-05]
+100%|██████████| 6/6 [00:00<00:00, 43.72it/s, epoch=1, gpu_mem=0.03 GB, loss=0.3425]
+100%|██████████| 6/6 [00:00<00:00, 50.54it/s, epoch=1, gpu_mem=0.03 GB, loss=0.3549]
+100%|██████████| 6/6 [00:00<00:00, 62.75it/s, epoch=1, gpu_mem=0.03 GB, loss=0.3635]
+100%|██████████| 6/6 [00:00<00:00, 57.20it/s, epoch=1, gpu_mem=0.03 GB, loss=0.3537]
+  0%|          | 1/343 [00:00<01:29,  3.83it/s, epoch=2, gpu_mem=0.70 GB, loss=0.4376, lr=5.00e-05]
+best_th=0.35, score up: 0.691530->0.696916
+best_th=0.4, score up: 0.696916->0.711735
+best_th=0.45, score up: 0.711735->0.727768
+best_th=0.5, score up: 0.727768->0.730061
+best_th=0.3, score up: 0.000000->0.762111
+best_th=0.35, score up: 0.762111->0.767994
+best_th=0.4, score up: 0.767994->0.781820
+best_th=0.3, score up: 0.000000->0.690763
+best_th=0.35, score up: 0.690763->0.691470
+best_th=0.4, score up: 0.691470->0.696513
+best_th=0.3, score up: 0.000000->0.768202
+best_th=0.35, score up: 0.768202->0.779346
+
+
+
+
+
+
+
+
+
+ 98%|█████████▊| 336/343 [00:18<00:00, 17.73it/s, epoch=2, gpu_mem=0.70 GB, loss=0.4372, lr=5.00e-05]
+100%|██████████| 343/343 [00:18<00:00, 18.21it/s, epoch=2, gpu_mem=0.70 GB, loss=0.4407, lr=5.00e-05]
+100%|██████████| 6/6 [00:00<00:00, 58.48it/s, epoch=2, gpu_mem=0.03 GB, loss=0.3053]
+100%|██████████| 6/6 [00:00<00:00, 61.53it/s, epoch=2, gpu_mem=0.03 GB, loss=0.3328]
+100%|██████████| 6/6 [00:00<00:00, 56.24it/s, epoch=2, gpu_mem=0.03 GB, loss=0.3271]
+100%|██████████| 6/6 [00:00<00:00, 59.19it/s, epoch=2, gpu_mem=0.03 GB, loss=0.3360]
+  0%|          | 1/343 [00:00<01:31,  3.74it/s, epoch=3, gpu_mem=0.70 GB, loss=0.4336, lr=5.00e-05]
+best_th=0.3, score up: 0.000000->0.696801
+best_th=0.35, score up: 0.696801->0.716649
+best_th=0.3, score up: 0.000000->0.765246
+best_th=0.35, score up: 0.765246->0.777453
+best_th=0.3, score up: 0.000000->0.732435
+best_th=0.3, score up: 0.000000->0.772376
+best_th=0.35, score up: 0.772376->0.788889
+best_th=0.4, score up: 0.788889->0.795303
+
+
+
+
+
+
+
+
+
+100%|██████████| 343/343 [00:18<00:00, 18.16it/s, epoch=3, gpu_mem=0.70 GB, loss=0.4427, lr=5.00e-05]
+100%|██████████| 6/6 [00:00<00:00, 65.04it/s, epoch=3, gpu_mem=0.03 GB, loss=0.3028]
+100%|██████████| 6/6 [00:00<00:00, 54.80it/s, epoch=3, gpu_mem=0.03 GB, loss=0.3239]
+100%|██████████| 6/6 [00:00<00:00, 60.78it/s, epoch=3, gpu_mem=0.03 GB, loss=0.3151]
+100%|██████████| 6/6 [00:00<00:00, 54.49it/s, epoch=3, gpu_mem=0.03 GB, loss=0.3122]
+  0%|          | 0/343 [00:00<?, ?it/s]
+valid:
+best_th=0.3, score up: 0.000000->0.679177
+best_th=0.35, score up: 0.679177->0.708775
+best_th=0.4, score up: 0.708775->0.714505
+best_th=0.5, score up: 0.714505->0.716423
+best_th=0.55, score up: 0.716423->0.717552
+best_th=0.3, score up: 0.000000->0.760777
+best_th=0.35, score up: 0.760777->0.774526
+best_th=0.4, score up: 0.774526->0.785138
+best_th=0.3, score up: 0.000000->0.729787
+best_th=0.35, score up: 0.729787->0.729979
+best_th=0.4, score up: 0.729979->0.738816
+best_th=0.45, score up: 0.738816->0.745315
+best_th=0.3, score up: 0.000000->0.802614
+best_th=0.35, score up: 0.802614->0.807537
+
+
+
+
+
+
+
+
+
+100%|██████████| 343/343 [00:19<00:00, 17.75it/s, epoch=4, gpu_mem=0.70 GB, loss=0.4103, lr=5.00e-05]
+100%|██████████| 6/6 [00:00<00:00, 61.92it/s, epoch=4, gpu_mem=0.03 GB, loss=0.2881]
+  0%|          | 0/6 [00:00<?, ?it/s, epoch=4, gpu_mem=0.03 GB, loss=0.3149]
+valid:
+best_th=0.3, score up: 0.000000->0.705039
+best_th=0.35, score up: 0.705039->0.714156
+best_th=0.4, score up: 0.714156->0.718928
+best_th=0.45, score up: 0.718928->0.722655
+best_th=0.3, score up: 0.000000->0.763301
+best_th=0.35, score up: 0.763301->0.770158
+best_th=0.4, score up: 0.770158->0.775637
+best_th=0.3, score up: 0.000000->0.716287
+best_th=0.35, score up: 0.716287->0.732394
+best_th=0.4, score up: 0.732394->0.733588
+best_th=0.45, score up: 0.733588->0.738395
+best_th=0.3, score up: 0.000000->0.768959
+best_th=0.35, score up: 0.768959->0.774596
+100%|██████████| 6/6 [00:00<00:00, 56.47it/s, epoch=4, gpu_mem=0.03 GB, loss=0.3149]
+100%|██████████| 6/6 [00:00<00:00, 56.95it/s, epoch=4, gpu_mem=0.03 GB, loss=0.3315]
+100%|██████████| 6/6 [00:00<00:00, 63.54it/s, epoch=4, gpu_mem=0.03 GB, loss=0.3133]
+  4%|▍         | 15/343 [00:01<00:19, 17.19it/s, epoch=5, gpu_mem=0.70 GB, loss=0.4236, lr=5.00e-05]
+best_th=0.45, score up: 0.795491->0.796475
+
+
+
+
+
+
+
+
+
+ 99%|█████████▉| 340/343 [00:19<00:00, 19.64it/s, epoch=5, gpu_mem=0.70 GB, loss=0.4017, lr=5.00e-05]
+valid:
+best_th=0.3, score up: 0.000000->0.707951
+best_th=0.35, score up: 0.707951->0.709710
+100%|██████████| 343/343 [00:19<00:00, 17.63it/s, epoch=5, gpu_mem=0.70 GB, loss=0.3919, lr=5.00e-05]
+100%|██████████| 6/6 [00:00<00:00, 53.77it/s, epoch=5, gpu_mem=0.03 GB, loss=0.2934]
+100%|██████████| 6/6 [00:00<00:00, 63.46it/s, epoch=5, gpu_mem=0.03 GB, loss=0.3004]
+100%|██████████| 6/6 [00:00<00:00, 54.83it/s, epoch=5, gpu_mem=0.03 GB, loss=0.3309]
+100%|██████████| 6/6 [00:00<00:00, 62.55it/s, epoch=5, gpu_mem=0.03 GB, loss=0.3218]
+  1%|          | 3/343 [00:00<00:44,  7.57it/s, epoch=6, gpu_mem=0.70 GB, loss=0.4058, lr=5.00e-05]
+best_th=0.3, score up: 0.000000->0.760986
+best_th=0.35, score up: 0.760986->0.781609
+best_th=0.3, score up: 0.000000->0.731990
+best_th=0.35, score up: 0.731990->0.733006
+best_th=0.45, score up: 0.733006->0.744028
+best_th=0.3, score up: 0.000000->0.772523
+best_th=0.35, score up: 0.772523->0.776883
+best_th=0.4, score up: 0.776883->0.785713
+best_th=0.45, score up: 0.785713->0.790059
+
+
+ 19%|█▊        | 64/343 [00:03<00:14, 19.11it/s, epoch=6, gpu_mem=0.70 GB, loss=0.3955, lr=5.00e-05]

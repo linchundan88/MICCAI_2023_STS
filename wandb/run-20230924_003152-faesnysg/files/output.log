@@ -1,0 +1,5 @@
+using DynUNet for training.
+train:
+/home/zy/anaconda3/envs/kaggle_torch/lib/python3.9/site-packages/torch/cuda/amp/grad_scaler.py:120: UserWarning: torch.cuda.amp.GradScaler is enabled, but CUDA is not available.  Disabling.
+  warnings.warn("torch.cuda.amp.GradScaler is enabled, but CUDA is not available.  Disabling.")
+  0%|          | 0/166 [00:00<?, ?it/s]

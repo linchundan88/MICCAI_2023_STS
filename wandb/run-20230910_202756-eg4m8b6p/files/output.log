@@ -1,0 +1,16 @@
+
+using SegResNet_64 for training.
+train:
+  0%|          | 0/1061 [00:04<?, ?it/s]
+Traceback (most recent call last):
+  File "/mnt/d/PROJECTION/TianChi/STS-2D/train.py", line 210, in <module>
+    train_loss = train_step(train_loader, model, criterion, optimizer, CFG.device, epoch)
+  File "/mnt/d/PROJECTION/TianChi/STS-2D/train.py", line 71, in train_step
+    loss = criterion(outputs, label.to(device))
+  File "/mnt/d/PROJECTION/TianChi/STS-2D/train.py", line 175, in __call__
+    0.25 * self.hd_loss(pred, label)
+  File "/home/zy/anaconda3/envs/kaggle_torch/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/mnt/d/PROJECTION/TianChi/STS-2D/SegLoss/losses_pytorch/hausdorff.py", line 64, in forward
+    dt_field = pred_error * distance
+RuntimeError: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu!

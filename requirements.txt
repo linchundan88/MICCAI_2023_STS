@@ -1,0 +1,23 @@
+torch >=2.1
+segmentation_models_pytorch
+monai
+transformers
+warmup_scheduler
+opencv-python
+albumentations
+numba
+tqdm
+numpy
+scipy
+scikit-image
+matplotlib
+scikit-learn
+wandb
+cupy-cuda12x  #cuda version
+matplotlib
+
+
+
+# conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia
+# pip install -i segmentation_models_pytorch timm albumentations  transformers monai  matplotlib cupy-cuda12x https://pypi.tuna.tsinghua.edu.cn/simple
+

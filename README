@@ -1,0 +1,7 @@
+train.py
+  train models using configuration from configure_train.
+inference.py
+  predict images using configuration from configure_inference.
+
+inference.TDD.PY
+  using Tufts Dental Database to do external validation.

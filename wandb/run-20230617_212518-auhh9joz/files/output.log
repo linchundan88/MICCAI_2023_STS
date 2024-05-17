@@ -1,0 +1,16 @@
+
+using DynUNet for training.
+train:
+  0%|          | 0/343 [00:04<?, ?it/s]
+Traceback (most recent call last):
+  File "/mnt/d/PROJECTION/TianChi/STS-2D/train.py", line 193, in <module>
+    train_loss = train_step(train_loader, model, criterion, optimizer, CFG.device, epoch)
+  File "/mnt/d/PROJECTION/TianChi/STS-2D/train.py", line 69, in train_step
+    loss = criterion(outputs, label.to(device))
+  File "/home/zy/anaconda3/envs/kaggle_torch/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/zy/anaconda3/envs/kaggle_torch/lib/python3.9/site-packages/torch/nn/modules/loss.py", line 720, in forward
+    return F.binary_cross_entropy_with_logits(input, target,
+  File "/home/zy/anaconda3/envs/kaggle_torch/lib/python3.9/site-packages/torch/nn/functional.py", line 3163, in binary_cross_entropy_with_logits
+    raise ValueError("Target size ({}) must be the same as input size ({})".format(target.size(), input.size()))
+ValueError: Target size (torch.Size([64, 1, 320, 320])) must be the same as input size (torch.Size([64, 2, 1, 320, 320]))

@@ -1,0 +1,74 @@
+2023-06-14 22:34:33,357 INFO    StreamThr :9943 [internal.py:wandb_internal():86] W&B internal server running at pid: 9943, started at: 2023-06-14 22:34:33.356509
+2023-06-14 22:34:33,359 DEBUG   HandlerThread:9943 [handler.py:handle_request():144] handle_request: status
+2023-06-14 22:34:33,360 INFO    WriterThread:9943 [datastore.py:open_for_write():85] open: /mnt/d/PROJECTION/TianChi/STS-2D/wandb/run-20230614_223433-009e4pg5/run-009e4pg5.wandb
+2023-06-14 22:34:33,368 DEBUG   SenderThread:9943 [sender.py:send():369] send: header
+2023-06-14 22:34:33,368 DEBUG   SenderThread:9943 [sender.py:send():369] send: run
+2023-06-14 22:34:34,263 DEBUG   HandlerThread:9943 [handler.py:handle_request():144] handle_request: check_version
+2023-06-14 22:34:34,264 INFO    SenderThread:9943 [dir_watcher.py:__init__():211] watching files in: /mnt/d/PROJECTION/TianChi/STS-2D/wandb/run-20230614_223433-009e4pg5/files
+2023-06-14 22:34:34,274 INFO    SenderThread:9943 [sender.py:_start_run_threads():1100] run started: 009e4pg5 with start time 1686753273.355532
+2023-06-14 22:34:34,274 DEBUG   SenderThread:9943 [sender.py:send_request():396] send_request: summary_record
+2023-06-14 22:34:34,278 INFO    SenderThread:9943 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-06-14 22:34:34,279 DEBUG   SenderThread:9943 [sender.py:send_request():396] send_request: check_version
+2023-06-14 22:34:35,289 INFO    Thread-12 :9943 [dir_watcher.py:_on_file_created():272] file/dir created: /mnt/d/PROJECTION/TianChi/STS-2D/wandb/run-20230614_223433-009e4pg5/files/wandb-summary.json
+2023-06-14 22:34:35,582 DEBUG   HandlerThread:9943 [handler.py:handle_request():144] handle_request: run_start
+2023-06-14 22:34:35,595 DEBUG   HandlerThread:9943 [system_info.py:__init__():31] System info init
+2023-06-14 22:34:35,595 DEBUG   HandlerThread:9943 [system_info.py:__init__():46] System info init done
+2023-06-14 22:34:35,596 INFO    HandlerThread:9943 [system_monitor.py:start():181] Starting system monitor
+2023-06-14 22:34:35,596 INFO    SystemMonitor:9943 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-06-14 22:34:35,596 INFO    HandlerThread:9943 [system_monitor.py:probe():201] Collecting system info
+2023-06-14 22:34:35,597 INFO    SystemMonitor:9943 [interfaces.py:start():190] Started cpu monitoring
+2023-06-14 22:34:35,599 INFO    SystemMonitor:9943 [interfaces.py:start():190] Started disk monitoring
+2023-06-14 22:34:35,600 INFO    SystemMonitor:9943 [interfaces.py:start():190] Started gpu monitoring
+2023-06-14 22:34:35,601 INFO    SystemMonitor:9943 [interfaces.py:start():190] Started memory monitoring
+2023-06-14 22:34:35,601 INFO    SystemMonitor:9943 [interfaces.py:start():190] Started network monitoring
+2023-06-14 22:34:35,610 DEBUG   HandlerThread:9943 [system_info.py:probe():195] Probing system
+2023-06-14 22:34:35,678 DEBUG   HandlerThread:9943 [gitlib.py:_init_repo():53] git repository is invalid
+2023-06-14 22:34:35,678 DEBUG   HandlerThread:9943 [system_info.py:probe():240] Probing system done
+2023-06-14 22:34:35,679 DEBUG   HandlerThread:9943 [system_monitor.py:probe():210] {'os': 'Linux-5.10.16.3-microsoft-standard-WSL2-x86_64-with-glibc2.35', 'python': '3.9.16', 'heartbeatAt': '2023-06-14T14:34:35.611143', 'startedAt': '2023-06-14T14:34:33.310122', 'docker': None, 'cuda': None, 'args': ('wandb', 'login'), 'state': 'running', 'program': '/mnt/d/PROJECTION/TianChi/STS-2D/train.py', 'codePath': 'train.py', 'host': 'DESKTOP-LT0ASMB', 'username': 'zy', 'executable': '/home/zy/anaconda3/envs/kaggle_torch/bin/python3', 'cpu_count': 3, 'cpu_count_logical': 5, 'cpu_freq': {'current': 3192.01, 'min': 0.0, 'max': 0.0}, 'cpu_freq_per_core': [{'current': 3192.01, 'min': 0.0, 'max': 0.0}, {'current': 3192.01, 'min': 0.0, 'max': 0.0}, {'current': 3192.01, 'min': 0.0, 'max': 0.0}, {'current': 3192.01, 'min': 0.0, 'max': 0.0}, {'current': 3192.01, 'min': 0.0, 'max': 0.0}], 'disk': {'total': 250.98248672485352, 'used': 49.27400588989258}, 'gpu': 'NVIDIA GeForce RTX 4090', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 4090', 'memory_total': 25757220864}], 'memory': {'total': 24.93661880493164}}
+2023-06-14 22:34:35,679 INFO    HandlerThread:9943 [system_monitor.py:probe():211] Finished collecting system info
+2023-06-14 22:34:35,679 INFO    HandlerThread:9943 [system_monitor.py:probe():214] Publishing system info
+2023-06-14 22:34:35,679 DEBUG   HandlerThread:9943 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-06-14 22:34:35,681 DEBUG   HandlerThread:9943 [system_info.py:_save_pip():67] Saving pip packages done
+2023-06-14 22:34:35,682 DEBUG   HandlerThread:9943 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-06-14 22:34:35,707 ERROR   HandlerThread:9943 [system_info.py:_save_conda():85] Error saving conda packages: [Errno 2] No such file or directory: 'conda'
+Traceback (most recent call last):
+  File "/home/zy/anaconda3/envs/kaggle_torch/lib/python3.9/site-packages/wandb/sdk/internal/system/system_info.py", line 81, in _save_conda
+    subprocess.call(
+  File "/home/zy/anaconda3/envs/kaggle_torch/lib/python3.9/subprocess.py", line 349, in call
+    with Popen(*popenargs, **kwargs) as p:
+  File "/home/zy/anaconda3/envs/kaggle_torch/lib/python3.9/subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/home/zy/anaconda3/envs/kaggle_torch/lib/python3.9/subprocess.py", line 1821, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'conda'
+2023-06-14 22:34:35,707 DEBUG   HandlerThread:9943 [system_info.py:_save_conda():86] Saving conda packages done
+2023-06-14 22:34:35,710 INFO    HandlerThread:9943 [system_monitor.py:probe():216] Finished publishing system info
+2023-06-14 22:34:35,717 DEBUG   SenderThread:9943 [sender.py:send():369] send: files
+2023-06-14 22:34:35,717 INFO    SenderThread:9943 [sender.py:_save_file():1354] saving file wandb-metadata.json with policy now
+2023-06-14 22:34:35,724 DEBUG   HandlerThread:9943 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-14 22:34:35,724 DEBUG   SenderThread:9943 [sender.py:send_request():396] send_request: stop_status
+2023-06-14 22:34:36,071 DEBUG   SenderThread:9943 [sender.py:send():369] send: telemetry
+2023-06-14 22:34:36,290 INFO    Thread-12 :9943 [dir_watcher.py:_on_file_created():272] file/dir created: /mnt/d/PROJECTION/TianChi/STS-2D/wandb/run-20230614_223433-009e4pg5/files/conda-environment.yaml
+2023-06-14 22:34:36,291 INFO    Thread-12 :9943 [dir_watcher.py:_on_file_created():272] file/dir created: /mnt/d/PROJECTION/TianChi/STS-2D/wandb/run-20230614_223433-009e4pg5/files/requirements.txt
+2023-06-14 22:34:36,291 INFO    Thread-12 :9943 [dir_watcher.py:_on_file_created():272] file/dir created: /mnt/d/PROJECTION/TianChi/STS-2D/wandb/run-20230614_223433-009e4pg5/files/output.log
+2023-06-14 22:34:36,292 INFO    Thread-12 :9943 [dir_watcher.py:_on_file_created():272] file/dir created: /mnt/d/PROJECTION/TianChi/STS-2D/wandb/run-20230614_223433-009e4pg5/files/wandb-metadata.json
+2023-06-14 22:34:37,093 INFO    wandb-upload_0:9943 [upload_job.py:push():133] Uploaded file /tmp/tmpguuyt2mwwandb/e8ozh425-wandb-metadata.json
+2023-06-14 22:34:38,301 INFO    Thread-12 :9943 [dir_watcher.py:_on_file_modified():289] file/dir modified: /mnt/d/PROJECTION/TianChi/STS-2D/wandb/run-20230614_223433-009e4pg5/files/output.log
+2023-06-14 22:34:38,636 DEBUG   HandlerThread:9943 [handler.py:handle_request():144] handle_request: status_report
+2023-06-14 22:34:40,314 INFO    Thread-12 :9943 [dir_watcher.py:_on_file_modified():289] file/dir modified: /mnt/d/PROJECTION/TianChi/STS-2D/wandb/run-20230614_223433-009e4pg5/files/output.log
+2023-06-14 22:34:42,326 INFO    Thread-12 :9943 [dir_watcher.py:_on_file_modified():289] file/dir modified: /mnt/d/PROJECTION/TianChi/STS-2D/wandb/run-20230614_223433-009e4pg5/files/output.log
+2023-06-14 22:34:43,742 DEBUG   HandlerThread:9943 [handler.py:handle_request():144] handle_request: status_report
+2023-06-14 22:34:44,335 INFO    Thread-12 :9943 [dir_watcher.py:_on_file_modified():289] file/dir modified: /mnt/d/PROJECTION/TianChi/STS-2D/wandb/run-20230614_223433-009e4pg5/files/output.log
+2023-06-14 22:34:46,347 INFO    Thread-12 :9943 [dir_watcher.py:_on_file_modified():289] file/dir modified: /mnt/d/PROJECTION/TianChi/STS-2D/wandb/run-20230614_223433-009e4pg5/files/output.log
+2023-06-14 22:34:48,358 INFO    Thread-12 :9943 [dir_watcher.py:_on_file_modified():289] file/dir modified: /mnt/d/PROJECTION/TianChi/STS-2D/wandb/run-20230614_223433-009e4pg5/files/output.log
+2023-06-14 22:34:48,995 DEBUG   HandlerThread:9943 [handler.py:handle_request():144] handle_request: status_report
+2023-06-14 22:34:50,370 INFO    Thread-12 :9943 [dir_watcher.py:_on_file_modified():289] file/dir modified: /mnt/d/PROJECTION/TianChi/STS-2D/wandb/run-20230614_223433-009e4pg5/files/output.log
+2023-06-14 22:34:50,737 DEBUG   HandlerThread:9943 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-14 22:34:50,737 DEBUG   SenderThread:9943 [sender.py:send_request():396] send_request: stop_status
+2023-06-14 22:34:51,602 INFO    cpu       :9943 [interfaces.py:monitor():140] Process cpu has exited.
+2023-06-14 22:34:51,602 DEBUG   SystemMonitor:9943 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-06-14 22:34:51,603 DEBUG   SystemMonitor:9943 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-06-14 22:34:51,604 DEBUG   SystemMonitor:9943 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-06-14 22:34:51,605 DEBUG   SenderThread:9943 [sender.py:send():369] send: stats
+2023-06-14 22:34:52,377 INFO    Thread-12 :9943 [dir_watcher.py:_on_file_modified():289] file/dir modified: /mnt/d/PROJECTION/TianChi/STS-2D/wandb/run-20230614_223433-009e4pg5/files/output.log
+2023-06-14 22:34:52,585 INFO    MainThread:9943 [internal.py:handle_exit():76] Internal process exited

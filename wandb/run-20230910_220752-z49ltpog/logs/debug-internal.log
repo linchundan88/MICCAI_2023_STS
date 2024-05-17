@@ -1,0 +1,212 @@
+2023-09-10 22:07:52,948 INFO    StreamThr :41 [internal.py:wandb_internal():86] W&B internal server running at pid: 41, started at: 2023-09-10 22:07:52.947068
+2023-09-10 22:07:52,949 DEBUG   HandlerThread:41 [handler.py:handle_request():144] handle_request: status
+2023-09-10 22:07:52,953 INFO    WriterThread:41 [datastore.py:open_for_write():85] open: /mnt/d/PROJECTION/TianChi/STS-2D/wandb/run-20230910_220752-z49ltpog/run-z49ltpog.wandb
+2023-09-10 22:07:52,960 DEBUG   SenderThread:41 [sender.py:send():369] send: header
+2023-09-10 22:07:52,960 DEBUG   SenderThread:41 [sender.py:send():369] send: run
+2023-09-10 22:07:54,439 DEBUG   HandlerThread:41 [handler.py:handle_request():144] handle_request: check_version
+2023-09-10 22:07:54,441 INFO    SenderThread:41 [dir_watcher.py:__init__():211] watching files in: /mnt/d/PROJECTION/TianChi/STS-2D/wandb/run-20230910_220752-z49ltpog/files
+2023-09-10 22:07:54,441 INFO    SenderThread:41 [sender.py:_start_run_threads():1100] run started: z49ltpog with start time 1694354872.949525
+2023-09-10 22:07:54,441 DEBUG   SenderThread:41 [sender.py:send_request():396] send_request: summary_record
+2023-09-10 22:07:54,444 INFO    SenderThread:41 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-09-10 22:07:54,445 DEBUG   SenderThread:41 [sender.py:send_request():396] send_request: check_version
+2023-09-10 22:07:55,460 INFO    Thread-12 :41 [dir_watcher.py:_on_file_created():272] file/dir created: /mnt/d/PROJECTION/TianChi/STS-2D/wandb/run-20230910_220752-z49ltpog/files/wandb-summary.json
+2023-09-10 22:07:56,987 DEBUG   HandlerThread:41 [handler.py:handle_request():144] handle_request: run_start
+2023-09-10 22:07:57,071 DEBUG   HandlerThread:41 [system_info.py:__init__():31] System info init
+2023-09-10 22:07:57,071 DEBUG   HandlerThread:41 [system_info.py:__init__():46] System info init done
+2023-09-10 22:07:57,072 INFO    HandlerThread:41 [system_monitor.py:start():181] Starting system monitor
+2023-09-10 22:07:57,072 INFO    SystemMonitor:41 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-09-10 22:07:57,072 INFO    HandlerThread:41 [system_monitor.py:probe():201] Collecting system info
+2023-09-10 22:07:57,074 INFO    SystemMonitor:41 [interfaces.py:start():190] Started cpu monitoring
+2023-09-10 22:07:57,075 INFO    SystemMonitor:41 [interfaces.py:start():190] Started disk monitoring
+2023-09-10 22:07:57,075 INFO    SystemMonitor:41 [interfaces.py:start():190] Started gpu monitoring
+2023-09-10 22:07:57,077 INFO    SystemMonitor:41 [interfaces.py:start():190] Started memory monitoring
+2023-09-10 22:07:57,078 INFO    SystemMonitor:41 [interfaces.py:start():190] Started network monitoring
+2023-09-10 22:07:57,098 DEBUG   HandlerThread:41 [system_info.py:probe():195] Probing system
+2023-09-10 22:07:57,157 DEBUG   HandlerThread:41 [gitlib.py:_init_repo():53] git repository is invalid
+2023-09-10 22:07:57,157 DEBUG   HandlerThread:41 [system_info.py:probe():240] Probing system done
+2023-09-10 22:07:57,157 DEBUG   HandlerThread:41 [system_monitor.py:probe():210] {'os': 'Linux-5.10.16.3-microsoft-standard-WSL2-x86_64-with-glibc2.35', 'python': '3.9.16', 'heartbeatAt': '2023-09-10T14:07:57.099265', 'startedAt': '2023-09-10T14:07:52.916737', 'docker': None, 'cuda': None, 'args': ('wandb', 'login'), 'state': 'running', 'program': '/mnt/d/PROJECTION/TianChi/STS-2D/train.py', 'codePath': 'train.py', 'host': 'DESKTOP-LT0ASMB', 'username': 'zy', 'executable': '/home/zy/anaconda3/envs/kaggle_torch/bin/python3', 'cpu_count': 3, 'cpu_count_logical': 5, 'cpu_freq': {'current': 3192.009, 'min': 0.0, 'max': 0.0}, 'cpu_freq_per_core': [{'current': 3192.009, 'min': 0.0, 'max': 0.0}, {'current': 3192.009, 'min': 0.0, 'max': 0.0}, {'current': 3192.009, 'min': 0.0, 'max': 0.0}, {'current': 3192.009, 'min': 0.0, 'max': 0.0}, {'current': 3192.009, 'min': 0.0, 'max': 0.0}], 'disk': {'total': 250.98248672485352, 'used': 63.27351379394531}, 'gpu': 'NVIDIA GeForce RTX 4090', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 4090', 'memory_total': 25757220864}], 'memory': {'total': 24.93661880493164}}
+2023-09-10 22:07:57,158 INFO    HandlerThread:41 [system_monitor.py:probe():211] Finished collecting system info
+2023-09-10 22:07:57,158 INFO    HandlerThread:41 [system_monitor.py:probe():214] Publishing system info
+2023-09-10 22:07:57,158 DEBUG   HandlerThread:41 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-09-10 22:07:57,160 DEBUG   HandlerThread:41 [system_info.py:_save_pip():67] Saving pip packages done
+2023-09-10 22:07:57,160 DEBUG   HandlerThread:41 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-09-10 22:07:57,216 ERROR   HandlerThread:41 [system_info.py:_save_conda():85] Error saving conda packages: [Errno 2] No such file or directory: 'conda'
+Traceback (most recent call last):
+  File "/home/zy/anaconda3/envs/kaggle_torch/lib/python3.9/site-packages/wandb/sdk/internal/system/system_info.py", line 81, in _save_conda
+    subprocess.call(
+  File "/home/zy/anaconda3/envs/kaggle_torch/lib/python3.9/subprocess.py", line 349, in call
+    with Popen(*popenargs, **kwargs) as p:
+  File "/home/zy/anaconda3/envs/kaggle_torch/lib/python3.9/subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/home/zy/anaconda3/envs/kaggle_torch/lib/python3.9/subprocess.py", line 1821, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'conda'
+2023-09-10 22:07:57,218 DEBUG   HandlerThread:41 [system_info.py:_save_conda():86] Saving conda packages done
+2023-09-10 22:07:57,221 INFO    HandlerThread:41 [system_monitor.py:probe():216] Finished publishing system info
+2023-09-10 22:07:57,230 DEBUG   SenderThread:41 [sender.py:send():369] send: files
+2023-09-10 22:07:57,231 INFO    SenderThread:41 [sender.py:_save_file():1354] saving file wandb-metadata.json with policy now
+2023-09-10 22:07:57,237 DEBUG   HandlerThread:41 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-10 22:07:57,239 DEBUG   SenderThread:41 [sender.py:send_request():396] send_request: stop_status
+2023-09-10 22:07:57,475 INFO    Thread-12 :41 [dir_watcher.py:_on_file_created():272] file/dir created: /mnt/d/PROJECTION/TianChi/STS-2D/wandb/run-20230910_220752-z49ltpog/files/requirements.txt
+2023-09-10 22:07:57,477 INFO    Thread-12 :41 [dir_watcher.py:_on_file_created():272] file/dir created: /mnt/d/PROJECTION/TianChi/STS-2D/wandb/run-20230910_220752-z49ltpog/files/conda-environment.yaml
+2023-09-10 22:07:57,478 INFO    Thread-12 :41 [dir_watcher.py:_on_file_created():272] file/dir created: /mnt/d/PROJECTION/TianChi/STS-2D/wandb/run-20230910_220752-z49ltpog/files/wandb-metadata.json
+2023-09-10 22:07:57,676 DEBUG   SenderThread:41 [sender.py:send():369] send: telemetry
+2023-09-10 22:07:58,481 INFO    Thread-12 :41 [dir_watcher.py:_on_file_created():272] file/dir created: /mnt/d/PROJECTION/TianChi/STS-2D/wandb/run-20230910_220752-z49ltpog/files/output.log
+2023-09-10 22:07:58,694 DEBUG   HandlerThread:41 [handler.py:handle_request():144] handle_request: status_report
+2023-09-10 22:07:59,935 INFO    wandb-upload_0:41 [upload_job.py:push():133] Uploaded file /tmp/tmpegng_6f0wandb/fzhzjae7-wandb-metadata.json
+2023-09-10 22:08:00,494 INFO    Thread-12 :41 [dir_watcher.py:_on_file_modified():289] file/dir modified: /mnt/d/PROJECTION/TianChi/STS-2D/wandb/run-20230910_220752-z49ltpog/files/output.log
+2023-09-10 22:08:03,695 DEBUG   HandlerThread:41 [handler.py:handle_request():144] handle_request: status_report
+2023-09-10 22:08:08,697 DEBUG   HandlerThread:41 [handler.py:handle_request():144] handle_request: status_report
+2023-09-10 22:08:12,238 DEBUG   HandlerThread:41 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-10 22:08:12,240 DEBUG   SenderThread:41 [sender.py:send_request():396] send_request: stop_status
+2023-09-10 22:08:14,549 DEBUG   HandlerThread:41 [handler.py:handle_request():144] handle_request: status_report
+2023-09-10 22:08:19,551 DEBUG   HandlerThread:41 [handler.py:handle_request():144] handle_request: status_report
+2023-09-10 22:08:24,558 DEBUG   HandlerThread:41 [handler.py:handle_request():144] handle_request: status_report
+2023-09-10 22:08:25,723 INFO    Thread-12 :41 [dir_watcher.py:_on_file_modified():289] file/dir modified: /mnt/d/PROJECTION/TianChi/STS-2D/wandb/run-20230910_220752-z49ltpog/files/config.yaml
+2023-09-10 22:08:27,238 DEBUG   HandlerThread:41 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-10 22:08:27,241 DEBUG   SenderThread:41 [sender.py:send_request():396] send_request: stop_status
+2023-09-10 22:08:30,595 DEBUG   HandlerThread:41 [handler.py:handle_request():144] handle_request: status_report
+2023-09-10 22:08:35,598 DEBUG   HandlerThread:41 [handler.py:handle_request():144] handle_request: status_report
+2023-09-10 22:08:40,600 DEBUG   HandlerThread:41 [handler.py:handle_request():144] handle_request: status_report
+2023-09-10 22:08:42,238 DEBUG   HandlerThread:41 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-10 22:08:42,241 DEBUG   SenderThread:41 [sender.py:send_request():396] send_request: stop_status
+2023-09-10 22:08:45,623 DEBUG   HandlerThread:41 [handler.py:handle_request():144] handle_request: status_report
+2023-09-10 22:08:50,625 DEBUG   HandlerThread:41 [handler.py:handle_request():144] handle_request: status_report
+2023-09-10 22:08:55,627 DEBUG   HandlerThread:41 [handler.py:handle_request():144] handle_request: status_report
+2023-09-10 22:08:57,079 DEBUG   SystemMonitor:41 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-09-10 22:08:57,083 DEBUG   SenderThread:41 [sender.py:send():369] send: stats
+2023-09-10 22:08:57,239 DEBUG   HandlerThread:41 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-10 22:08:57,241 DEBUG   SenderThread:41 [sender.py:send_request():396] send_request: stop_status
+2023-09-10 22:09:01,594 DEBUG   HandlerThread:41 [handler.py:handle_request():144] handle_request: status_report
+2023-09-10 22:09:06,596 DEBUG   HandlerThread:41 [handler.py:handle_request():144] handle_request: status_report
+2023-09-10 22:09:09,968 DEBUG   SenderThread:41 [sender.py:send():369] send: exit
+2023-09-10 22:09:09,969 INFO    SenderThread:41 [sender.py:send_exit():574] handling exit code: 1
+2023-09-10 22:09:09,969 INFO    SenderThread:41 [sender.py:send_exit():576] handling runtime: 72
+2023-09-10 22:09:09,971 INFO    SenderThread:41 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-09-10 22:09:09,972 INFO    SenderThread:41 [sender.py:send_exit():582] send defer
+2023-09-10 22:09:09,972 DEBUG   HandlerThread:41 [handler.py:handle_request():144] handle_request: defer
+2023-09-10 22:09:09,973 INFO    HandlerThread:41 [handler.py:handle_request_defer():170] handle defer: 0
+2023-09-10 22:09:09,973 DEBUG   SenderThread:41 [sender.py:send_request():396] send_request: defer
+2023-09-10 22:09:09,973 INFO    SenderThread:41 [sender.py:send_request_defer():598] handle sender defer: 0
+2023-09-10 22:09:09,973 INFO    SenderThread:41 [sender.py:transition_state():602] send defer: 1
+2023-09-10 22:09:09,974 DEBUG   HandlerThread:41 [handler.py:handle_request():144] handle_request: defer
+2023-09-10 22:09:09,974 INFO    HandlerThread:41 [handler.py:handle_request_defer():170] handle defer: 1
+2023-09-10 22:09:09,974 DEBUG   SenderThread:41 [sender.py:send_request():396] send_request: defer
+2023-09-10 22:09:09,975 INFO    SenderThread:41 [sender.py:send_request_defer():598] handle sender defer: 1
+2023-09-10 22:09:09,975 INFO    SenderThread:41 [sender.py:transition_state():602] send defer: 2
+2023-09-10 22:09:09,975 DEBUG   HandlerThread:41 [handler.py:handle_request():144] handle_request: defer
+2023-09-10 22:09:09,975 INFO    HandlerThread:41 [handler.py:handle_request_defer():170] handle defer: 2
+2023-09-10 22:09:09,975 INFO    HandlerThread:41 [system_monitor.py:finish():190] Stopping system monitor
+2023-09-10 22:09:09,976 DEBUG   SystemMonitor:41 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-09-10 22:09:09,976 DEBUG   SystemMonitor:41 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-09-10 22:09:09,976 INFO    HandlerThread:41 [interfaces.py:finish():202] Joined cpu monitor
+2023-09-10 22:09:09,977 INFO    HandlerThread:41 [interfaces.py:finish():202] Joined disk monitor
+2023-09-10 22:09:09,982 INFO    HandlerThread:41 [interfaces.py:finish():202] Joined gpu monitor
+2023-09-10 22:09:09,982 INFO    HandlerThread:41 [interfaces.py:finish():202] Joined memory monitor
+2023-09-10 22:09:09,982 INFO    HandlerThread:41 [interfaces.py:finish():202] Joined network monitor
+2023-09-10 22:09:09,983 DEBUG   SenderThread:41 [sender.py:send_request():396] send_request: defer
+2023-09-10 22:09:09,983 INFO    SenderThread:41 [sender.py:send_request_defer():598] handle sender defer: 2
+2023-09-10 22:09:09,983 INFO    SenderThread:41 [sender.py:transition_state():602] send defer: 3
+2023-09-10 22:09:09,984 DEBUG   SenderThread:41 [sender.py:send():369] send: stats
+2023-09-10 22:09:09,984 DEBUG   HandlerThread:41 [handler.py:handle_request():144] handle_request: defer
+2023-09-10 22:09:09,984 INFO    HandlerThread:41 [handler.py:handle_request_defer():170] handle defer: 3
+2023-09-10 22:09:09,985 DEBUG   SenderThread:41 [sender.py:send_request():396] send_request: defer
+2023-09-10 22:09:09,985 INFO    SenderThread:41 [sender.py:send_request_defer():598] handle sender defer: 3
+2023-09-10 22:09:09,985 INFO    SenderThread:41 [sender.py:transition_state():602] send defer: 4
+2023-09-10 22:09:09,986 DEBUG   HandlerThread:41 [handler.py:handle_request():144] handle_request: defer
+2023-09-10 22:09:09,986 INFO    HandlerThread:41 [handler.py:handle_request_defer():170] handle defer: 4
+2023-09-10 22:09:09,986 DEBUG   SenderThread:41 [sender.py:send_request():396] send_request: defer
+2023-09-10 22:09:09,986 INFO    SenderThread:41 [sender.py:send_request_defer():598] handle sender defer: 4
+2023-09-10 22:09:09,987 INFO    SenderThread:41 [sender.py:transition_state():602] send defer: 5
+2023-09-10 22:09:09,987 DEBUG   HandlerThread:41 [handler.py:handle_request():144] handle_request: defer
+2023-09-10 22:09:09,987 INFO    HandlerThread:41 [handler.py:handle_request_defer():170] handle defer: 5
+2023-09-10 22:09:09,987 DEBUG   SenderThread:41 [sender.py:send():369] send: summary
+2023-09-10 22:09:09,989 INFO    SenderThread:41 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-09-10 22:09:09,990 DEBUG   SenderThread:41 [sender.py:send_request():396] send_request: defer
+2023-09-10 22:09:09,991 INFO    SenderThread:41 [sender.py:send_request_defer():598] handle sender defer: 5
+2023-09-10 22:09:09,991 INFO    SenderThread:41 [sender.py:transition_state():602] send defer: 6
+2023-09-10 22:09:09,991 DEBUG   HandlerThread:41 [handler.py:handle_request():144] handle_request: defer
+2023-09-10 22:09:09,991 INFO    HandlerThread:41 [handler.py:handle_request_defer():170] handle defer: 6
+2023-09-10 22:09:09,992 DEBUG   SenderThread:41 [sender.py:send_request():396] send_request: defer
+2023-09-10 22:09:09,992 INFO    SenderThread:41 [sender.py:send_request_defer():598] handle sender defer: 6
+2023-09-10 22:09:09,992 INFO    SenderThread:41 [sender.py:transition_state():602] send defer: 7
+2023-09-10 22:09:09,992 DEBUG   HandlerThread:41 [handler.py:handle_request():144] handle_request: status_report
+2023-09-10 22:09:09,993 DEBUG   HandlerThread:41 [handler.py:handle_request():144] handle_request: defer
+2023-09-10 22:09:09,993 INFO    HandlerThread:41 [handler.py:handle_request_defer():170] handle defer: 7
+2023-09-10 22:09:09,994 DEBUG   SenderThread:41 [sender.py:send_request():396] send_request: defer
+2023-09-10 22:09:09,994 INFO    SenderThread:41 [sender.py:send_request_defer():598] handle sender defer: 7
+2023-09-10 22:09:10,285 INFO    Thread-12 :41 [dir_watcher.py:_on_file_modified():289] file/dir modified: /mnt/d/PROJECTION/TianChi/STS-2D/wandb/run-20230910_220752-z49ltpog/files/output.log
+2023-09-10 22:09:10,288 INFO    Thread-12 :41 [dir_watcher.py:_on_file_modified():289] file/dir modified: /mnt/d/PROJECTION/TianChi/STS-2D/wandb/run-20230910_220752-z49ltpog/files/wandb-summary.json
+2023-09-10 22:09:10,969 DEBUG   HandlerThread:41 [handler.py:handle_request():144] handle_request: poll_exit
+2023-09-10 22:09:12,316 INFO    Thread-12 :41 [dir_watcher.py:_on_file_modified():289] file/dir modified: /mnt/d/PROJECTION/TianChi/STS-2D/wandb/run-20230910_220752-z49ltpog/files/output.log
+2023-09-10 22:09:13,582 INFO    SenderThread:41 [sender.py:transition_state():602] send defer: 8
+2023-09-10 22:09:13,584 DEBUG   SenderThread:41 [sender.py:send_request():396] send_request: poll_exit
+2023-09-10 22:09:13,584 DEBUG   HandlerThread:41 [handler.py:handle_request():144] handle_request: defer
+2023-09-10 22:09:13,587 INFO    HandlerThread:41 [handler.py:handle_request_defer():170] handle defer: 8
+2023-09-10 22:09:13,589 DEBUG   SenderThread:41 [sender.py:send_request():396] send_request: defer
+2023-09-10 22:09:13,590 INFO    SenderThread:41 [sender.py:send_request_defer():598] handle sender defer: 8
+2023-09-10 22:09:13,591 INFO    SenderThread:41 [job_builder.py:build():232] Attempting to build job artifact
+2023-09-10 22:09:13,615 INFO    SenderThread:41 [job_builder.py:build():266] no source found
+2023-09-10 22:09:13,616 INFO    SenderThread:41 [sender.py:transition_state():602] send defer: 9
+2023-09-10 22:09:13,617 DEBUG   HandlerThread:41 [handler.py:handle_request():144] handle_request: defer
+2023-09-10 22:09:13,618 INFO    HandlerThread:41 [handler.py:handle_request_defer():170] handle defer: 9
+2023-09-10 22:09:13,619 DEBUG   SenderThread:41 [sender.py:send_request():396] send_request: defer
+2023-09-10 22:09:13,619 INFO    SenderThread:41 [sender.py:send_request_defer():598] handle sender defer: 9
+2023-09-10 22:09:13,620 INFO    SenderThread:41 [dir_watcher.py:finish():359] shutting down directory watcher
+2023-09-10 22:09:14,351 INFO    SenderThread:41 [dir_watcher.py:_on_file_modified():289] file/dir modified: /mnt/d/PROJECTION/TianChi/STS-2D/wandb/run-20230910_220752-z49ltpog/files/output.log
+2023-09-10 22:09:14,357 INFO    SenderThread:41 [dir_watcher.py:finish():389] scan: /mnt/d/PROJECTION/TianChi/STS-2D/wandb/run-20230910_220752-z49ltpog/files
+2023-09-10 22:09:14,358 INFO    SenderThread:41 [dir_watcher.py:finish():403] scan save: /mnt/d/PROJECTION/TianChi/STS-2D/wandb/run-20230910_220752-z49ltpog/files/conda-environment.yaml conda-environment.yaml
+2023-09-10 22:09:14,362 INFO    SenderThread:41 [dir_watcher.py:finish():403] scan save: /mnt/d/PROJECTION/TianChi/STS-2D/wandb/run-20230910_220752-z49ltpog/files/config.yaml config.yaml
+2023-09-10 22:09:14,366 INFO    SenderThread:41 [dir_watcher.py:finish():403] scan save: /mnt/d/PROJECTION/TianChi/STS-2D/wandb/run-20230910_220752-z49ltpog/files/output.log output.log
+2023-09-10 22:09:14,371 INFO    SenderThread:41 [dir_watcher.py:finish():403] scan save: /mnt/d/PROJECTION/TianChi/STS-2D/wandb/run-20230910_220752-z49ltpog/files/requirements.txt requirements.txt
+2023-09-10 22:09:14,375 INFO    SenderThread:41 [dir_watcher.py:finish():403] scan save: /mnt/d/PROJECTION/TianChi/STS-2D/wandb/run-20230910_220752-z49ltpog/files/wandb-metadata.json wandb-metadata.json
+2023-09-10 22:09:14,376 INFO    SenderThread:41 [dir_watcher.py:finish():403] scan save: /mnt/d/PROJECTION/TianChi/STS-2D/wandb/run-20230910_220752-z49ltpog/files/wandb-summary.json wandb-summary.json
+2023-09-10 22:09:14,381 INFO    SenderThread:41 [sender.py:transition_state():602] send defer: 10
+2023-09-10 22:09:14,381 DEBUG   HandlerThread:41 [handler.py:handle_request():144] handle_request: defer
+2023-09-10 22:09:14,382 INFO    HandlerThread:41 [handler.py:handle_request_defer():170] handle defer: 10
+2023-09-10 22:09:14,383 DEBUG   SenderThread:41 [sender.py:send_request():396] send_request: defer
+2023-09-10 22:09:14,384 INFO    SenderThread:41 [sender.py:send_request_defer():598] handle sender defer: 10
+2023-09-10 22:09:14,384 INFO    SenderThread:41 [file_pusher.py:finish():159] shutting down file pusher
+2023-09-10 22:09:15,328 INFO    wandb-upload_0:41 [upload_job.py:push():133] Uploaded file /mnt/d/PROJECTION/TianChi/STS-2D/wandb/run-20230910_220752-z49ltpog/files/config.yaml
+2023-09-10 22:09:15,682 INFO    wandb-upload_2:41 [upload_job.py:push():133] Uploaded file /mnt/d/PROJECTION/TianChi/STS-2D/wandb/run-20230910_220752-z49ltpog/files/requirements.txt
+2023-09-10 22:09:15,972 DEBUG   HandlerThread:41 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-10 22:09:16,009 INFO    wandb-upload_3:41 [upload_job.py:push():133] Uploaded file /mnt/d/PROJECTION/TianChi/STS-2D/wandb/run-20230910_220752-z49ltpog/files/wandb-summary.json
+2023-09-10 22:09:16,254 INFO    wandb-upload_1:41 [upload_job.py:push():133] Uploaded file /mnt/d/PROJECTION/TianChi/STS-2D/wandb/run-20230910_220752-z49ltpog/files/output.log
+2023-09-10 22:09:16,456 INFO    Thread-11 :41 [sender.py:transition_state():602] send defer: 11
+2023-09-10 22:09:16,458 DEBUG   HandlerThread:41 [handler.py:handle_request():144] handle_request: defer
+2023-09-10 22:09:16,459 INFO    HandlerThread:41 [handler.py:handle_request_defer():170] handle defer: 11
+2023-09-10 22:09:16,461 DEBUG   SenderThread:41 [sender.py:send_request():396] send_request: defer
+2023-09-10 22:09:16,463 INFO    SenderThread:41 [sender.py:send_request_defer():598] handle sender defer: 11
+2023-09-10 22:09:16,464 INFO    SenderThread:41 [file_pusher.py:join():164] waiting for file pusher
+2023-09-10 22:09:16,465 INFO    SenderThread:41 [sender.py:transition_state():602] send defer: 12
+2023-09-10 22:09:16,466 DEBUG   HandlerThread:41 [handler.py:handle_request():144] handle_request: defer
+2023-09-10 22:09:16,467 INFO    HandlerThread:41 [handler.py:handle_request_defer():170] handle defer: 12
+2023-09-10 22:09:16,467 DEBUG   SenderThread:41 [sender.py:send_request():396] send_request: defer
+2023-09-10 22:09:16,468 INFO    SenderThread:41 [sender.py:send_request_defer():598] handle sender defer: 12
+2023-09-10 22:09:17,403 INFO    SenderThread:41 [sender.py:transition_state():602] send defer: 13
+2023-09-10 22:09:17,405 DEBUG   HandlerThread:41 [handler.py:handle_request():144] handle_request: defer
+2023-09-10 22:09:17,406 INFO    HandlerThread:41 [handler.py:handle_request_defer():170] handle defer: 13
+2023-09-10 22:09:17,408 DEBUG   SenderThread:41 [sender.py:send_request():396] send_request: defer
+2023-09-10 22:09:17,409 INFO    SenderThread:41 [sender.py:send_request_defer():598] handle sender defer: 13
+2023-09-10 22:09:17,411 INFO    SenderThread:41 [sender.py:transition_state():602] send defer: 14
+2023-09-10 22:09:17,412 DEBUG   SenderThread:41 [sender.py:send():369] send: final
+2023-09-10 22:09:17,413 DEBUG   HandlerThread:41 [handler.py:handle_request():144] handle_request: defer
+2023-09-10 22:09:17,414 DEBUG   SenderThread:41 [sender.py:send():369] send: footer
+2023-09-10 22:09:17,415 INFO    HandlerThread:41 [handler.py:handle_request_defer():170] handle defer: 14
+2023-09-10 22:09:17,418 DEBUG   SenderThread:41 [sender.py:send_request():396] send_request: defer
+2023-09-10 22:09:17,420 INFO    SenderThread:41 [sender.py:send_request_defer():598] handle sender defer: 14
+2023-09-10 22:09:17,422 DEBUG   HandlerThread:41 [handler.py:handle_request():144] handle_request: poll_exit
+2023-09-10 22:09:17,424 DEBUG   HandlerThread:41 [handler.py:handle_request():144] handle_request: server_info
+2023-09-10 22:09:17,425 DEBUG   HandlerThread:41 [handler.py:handle_request():144] handle_request: get_summary
+2023-09-10 22:09:17,426 DEBUG   SenderThread:41 [sender.py:send_request():396] send_request: poll_exit
+2023-09-10 22:09:17,427 DEBUG   HandlerThread:41 [handler.py:handle_request():144] handle_request: sampled_history
+2023-09-10 22:09:17,429 DEBUG   SenderThread:41 [sender.py:send_request():396] send_request: server_info
+2023-09-10 22:09:17,978 INFO    MainThread:41 [wandb_run.py:_footer_history_summary_info():3467] rendering history
+2023-09-10 22:09:17,978 INFO    MainThread:41 [wandb_run.py:_footer_history_summary_info():3499] rendering summary
+2023-09-10 22:09:17,979 INFO    MainThread:41 [wandb_run.py:_footer_sync_info():3426] logging synced files
+2023-09-10 22:09:17,979 DEBUG   HandlerThread:41 [handler.py:handle_request():144] handle_request: shutdown
+2023-09-10 22:09:17,980 INFO    HandlerThread:41 [handler.py:finish():854] shutting down handler
+2023-09-10 22:09:18,427 INFO    WriterThread:41 [datastore.py:close():298] close: /mnt/d/PROJECTION/TianChi/STS-2D/wandb/run-20230910_220752-z49ltpog/run-z49ltpog.wandb
+2023-09-10 22:09:18,978 INFO    SenderThread:41 [sender.py:finish():1526] shutting down sender
+2023-09-10 22:09:18,979 INFO    SenderThread:41 [file_pusher.py:finish():159] shutting down file pusher
+2023-09-10 22:09:18,979 INFO    SenderThread:41 [file_pusher.py:join():164] waiting for file pusher

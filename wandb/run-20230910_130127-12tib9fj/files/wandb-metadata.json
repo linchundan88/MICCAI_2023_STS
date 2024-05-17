@@ -1,0 +1,67 @@
+{
+    "os": "Linux-5.10.16.3-microsoft-standard-WSL2-x86_64-with-glibc2.35",
+    "python": "3.9.16",
+    "heartbeatAt": "2023-09-10T05:01:32.148461",
+    "startedAt": "2023-09-10T05:01:27.173739",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "wandb",
+        "login"
+    ],
+    "state": "running",
+    "program": "/mnt/d/PROJECTION/TianChi/STS-2D/train.py",
+    "codePath": "train.py",
+    "host": "DESKTOP-LT0ASMB",
+    "username": "zy",
+    "executable": "/home/zy/anaconda3/envs/kaggle_torch/bin/python3",
+    "cpu_count": 3,
+    "cpu_count_logical": 5,
+    "cpu_freq": {
+        "current": 3192.009,
+        "min": 0.0,
+        "max": 0.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3192.009,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3192.009,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3192.009,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3192.009,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3192.009,
+            "min": 0.0,
+            "max": 0.0
+        }
+    ],
+    "disk": {
+        "total": 250.98248672485352,
+        "used": 63.273189544677734
+    },
+    "gpu": "NVIDIA GeForce RTX 4090",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 4090",
+            "memory_total": 25757220864
+        }
+    ],
+    "memory": {
+        "total": 24.93661880493164
+    }
+}
