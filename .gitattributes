@@ -1,0 +1,1 @@
+results/log/exp11_SegResNet_64/checkpoint/SegResNet_64-best_score_0.949433-max_score_th0.4-train_loss_0.076860-valid_loss0.062671-epoch_27.pth filter=lfs diff=lfs merge=lfs -text
